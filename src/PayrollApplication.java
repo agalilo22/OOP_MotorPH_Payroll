@@ -15,7 +15,12 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JComboBox;
 
 
-// Login functionality
+//     __                _          ____                 __  _                   ___ __
+//   / /   ____  ____ _(_)___     / __/_  ______  _____/ /_(_)___  ____  ____ _/ (_) /___  __
+//  / /   / __ \/ __ `/ / __ \   / /_/ / / / __ \/ ___/ __/ / __ \/ __ \/ __ `/ / / __/ / / /
+// / /___/ /_/ / /_/ / / / / /  / __/ /_/ / / / / /__/ /_/ / /_/ / / / / /_/ / / / /_/ /_/ /
+///_____/\____/\__, /_/_/ /_/  /_/  \__,_/_/ /_/\___/\__/_/\____/_/ /_/\__,_/_/_/\__/\__, /
+//            /____/                                                                /____/
 class LoginManager {
     private Map<String, String> userCredentials;
     private static final String USER_CREDENTIALS_CSV = "user_credentials.csv";
@@ -59,7 +64,7 @@ class LoginManager {
         }
     }
 
-    // New method to save credentials to CSV
+    // save credentials to CSV
     private void saveCredentialsToCSV() {
         try (PrintWriter writer = new PrintWriter(new File(USER_CREDENTIALS_CSV))) {
             writer.println("username,password,role"); // CSV header
@@ -71,7 +76,7 @@ class LoginManager {
         }
     }
 
-    // Add IT admin credentials if not present (for initial setup)
+    //IT admin credentials
     public void ensureITAdminExists() {
         if (!userCredentials.containsKey("itadmin")) {
             userCredentials.put("itadmin", "itpass");
@@ -80,7 +85,12 @@ class LoginManager {
     }
 }
 
-// User classes
+//    __  __                       __
+//  / / / /_______  _____   _____/ /___ ______________  _____
+// / / / / ___/ _ \/ ___/  / ___/ / __ `/ ___/ ___/ _ \/ ___/
+/// /_/ (__  )  __/ /     / /__/ / /_/ (__  |__  )  __(__  )
+//\____/____/\___/_/      \___/_/\__,_/____/____/\___/____/
+//
 abstract class User {
     private String username;
 
@@ -182,7 +192,12 @@ class Employee extends User {
 }
 
 
-// Interface for Tax Deductions
+//     ____      __            ____                   ____              ______              ____           __           __  _
+//   /  _/___  / /____  _____/ __/___ _________     / __/___  _____   /_  __/___ __  __   / __ \___  ____/ /_  _______/ /_(_)___  ____  _____
+//   / // __ \/ __/ _ \/ ___/ /_/ __ `/ ___/ _ \   / /_/ __ \/ ___/    / / / __ `/ |/_/  / / / / _ \/ __  / / / / ___/ __/ / __ \/ __ \/ ___/
+// _/ // / / / /_/  __/ /  / __/ /_/ / /__/  __/  / __/ /_/ / /       / / / /_/ />  <   / /_/ /  __/ /_/ / /_/ / /__/ /_/ / /_/ / / / (__  )
+///___/_/ /_/\__/\___/_/  /_/  \__,_/\___/\___/  /_/  \____/_/       /_/  \__,_/_/|_|  /_____/\___/\__,_/\__,_/\___/\__/_/\____/_/ /_/____/
+//
 interface TaxDeduction {
     double calculateDeduction(double grossPay);
     String getDeductionName();
@@ -259,7 +274,8 @@ class PagIbigDeduction implements TaxDeduction {
     }
 }
 
-// Payroll Setup Class
+// payroll setup
+
 class PayrollSetup {
     private String payPeriod;
     private String modeOfPayment;
@@ -288,6 +304,7 @@ class PayrollSetup {
     }
 }
 
+// leave request
 
 class LeaveRequest {
     private int requestId;
@@ -333,7 +350,12 @@ class LeaveRequest {
 
 
 
-// Class for Leave Management
+//     __                                                                                     __
+//   / /__  ____ __   _____     ____ ___  ____ _____  ____ _____ ____  ____ ___  ___  ____  / /_
+//  / / _ \/ __ `/ | / / _ \   / __ `__ \/ __ `/ __ \/ __ `/ __ `/ _ \/ __ `__ \/ _ \/ __ \/ __/
+// / /  __/ /_/ /| |/ /  __/  / / / / / / /_/ / / / / /_/ / /_/ /  __/ / / / / /  __/ / / / /_
+///_/\___/\__,_/ |___/\___/  /_/ /_/ /_/\__,_/_/ /_/\__,_/\__, /\___/_/ /_/ /_/\___/_/ /_/\__/
+//                                                       /____/
 class LeaveManagement {
     private List<LeaveRequest> leaveRequests;
     private static final String LEAVE_REQUESTS_CSV = "LEAVE_REQUESTS_CSV.csv";
@@ -459,7 +481,12 @@ class LeaveManagement {
 }
 
 
-// Class for Reports
+//                                __               __
+//   ________  ____  ____  _____/ /______   _____/ /___ ___________
+//  / ___/ _ \/ __ \/ __ \/ ___/ __/ ___/  / ___/ / __ `/ ___/ ___/
+// / /  /  __/ /_/ / /_/ / /  / /_(__  )  / /__/ / /_/ (__  |__  )
+///_/   \___/ .___/\____/_/   \__/____/   \___/_/\__,_/____/____/
+//         /_/
 class Report {
     private TimeAndAttendanceRecords attendanceRecords;
     private EmployeeRecords employeeRecords;
@@ -561,7 +588,12 @@ class Report {
     }
 }
 
-// Class for Time and Attendance
+//    __  _                                   __         __  __                 __
+//  / /_(_)___ ___  ___     ____ _____  ____/ /  ____ _/ /_/ /____  ____  ____/ /___ _________
+// / __/ / __ `__ \/ _ \   / __ `/ __ \/ __  /  / __ `/ __/ __/ _ \/ __ \/ __  / __ `/ ___/ _ \
+/// /_/ / / / / / /  __/  / /_/ / / / / /_/ /  / /_/ / /_/ /_/  __/ / / / /_/ / /_/ / /__/  __/
+//\__/_/_/ /_/ /_/\___/   \__,_/_/ /_/\__,_/   \__,_/\__/\__/\___/_/ /_/\__,_/\__,_/\___/\___/
+//
 class TimeAndAttendance {
     public void clockIn(Employee employee) {
         System.out.println("Clocking in employee ID: " + employee.getUsername());
@@ -646,7 +678,7 @@ class TimeRecord {
 
 // Class for Employee Records Management
 class EmployeeRecords {
-    protected Map<Integer, Employee> employees; // Key is now Integer (Employee ID)
+    protected Map<Integer, Employee> employees; // Key Integer (Employee ID)
     private static final String CSV_FILE = "MotorPH_Employee_Data.csv";
 
     public EmployeeRecords() {
@@ -684,10 +716,10 @@ class EmployeeRecords {
         boolean found = false;
 
         try (Scanner scanner = new Scanner(new File(CSV_FILE))) {
-            scanner.nextLine(); // Skip header
+            scanner.nextLine();
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                String[] parts = line.split(",", -1); // -1 keeps trailing empty strings
+                String[] parts = line.split(",", -1);
                 if (parts.length > 0) {
                     try {
                         int currentId = Integer.parseInt(parts[0].trim());
@@ -751,7 +783,7 @@ class EmployeeRecords {
     public void loadFromCSV() {
         try (Scanner scanner = new Scanner(new File(CSV_FILE))) {
             if (scanner.hasNextLine()) {
-                scanner.nextLine(); // Skip header line
+                scanner.nextLine();
             }
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -771,7 +803,6 @@ class EmployeeRecords {
                         String status = tokens[10].trim();
                         String position = tokens[11].trim();
                         String immediateSupervisor = tokens[12].trim();
-                        // Remove non-numeric characters before parsing doubles
                         String basicSalaryStr = tokens[13].trim().replace(",", "").replaceAll("[^\\d.]", "");
                         String riceSubsidyStr = tokens[14].trim().replace(",", "").replaceAll("[^\\d.]", "");
                         String phoneAllowanceStr = tokens[15].trim().replace(",", "").replaceAll("[^\\d.]", "");
@@ -835,7 +866,12 @@ class EmployeeRecords {
     }
 }
 
-// Main Application
+//                     _                            ___            __  _
+//   ____ ___  ____ _(_)___     ____ _____  ____  / (_)________ _/ /_(_)___  ____
+//  / __ `__ \/ __ `/ / __ \   / __ `/ __ \/ __ \/ / / ___/ __ `/ __/ / __ \/ __ \
+// / / / / / / /_/ / / / / /  / /_/ / /_/ / /_/ / / / /__/ /_/ / /_/ / /_/ / / / /
+///_/ /_/ /_/\__,_/_/_/ /_/   \__,_/ .___/ .___/_/_/\___/\__,_/\__/_/\____/_/ /_/
+//                                /_/   /_/
 public class PayrollApplication {
     public static void main(String[] args) {
         try {
@@ -875,6 +911,7 @@ class PayrollGUI {
 
     }
 
+  // login pane
     public void createLoginGUI() {
         JFrame loginFrame = new JFrame("Payroll App Login");
         loginFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -889,12 +926,12 @@ class PayrollGUI {
     private void placeLoginComponents(JPanel panel) {
         panel.setLayout(null);
 
-        JLabel userLabel = new JLabel("Username:"); // Updated label for clarity
-        userLabel.setBounds(10, 20, 120, 25); // Adjusted width for longer label
+        JLabel userLabel = new JLabel("Username:");
+        userLabel.setBounds(10, 20, 120, 25);
         panel.add(userLabel);
 
         JTextField userText = new JTextField(20);
-        userText.setBounds(130, 20, 250, 25); // Adjusted x-position to align with new label width
+        userText.setBounds(130, 20, 250, 25);
         panel.add(userText);
 
         JLabel passwordLabel = new JLabel("Password:");
@@ -963,6 +1000,13 @@ class PayrollGUI {
         });
     }
 
+    //              __          _                           __        __
+    //  ____ _____/ /___ ___  (_)___     ____  ____  _____/ /_____ _/ /
+    // / __ `/ __  / __ `__ \/ / __ \   / __ \/ __ \/ ___/ __/ __ `/ /
+    /// /_/ / /_/ / / / / / / / / / /  / /_/ / /_/ / /  / /_/ /_/ / /
+    //\__,_/\__,_/_/ /_/ /_/_/_/ /_/  / .___/\____/_/   \__/\__,_/_/
+    //                               /_/
+
     public void accessAdminPortal() {
         JFrame adminFrame = new JFrame("Payroll Admin Portal");
         adminFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -975,11 +1019,12 @@ class PayrollGUI {
 
         JTabbedPane tabbedPane = new JTabbedPane();
 
-        // --- Payroll Management Tab (Revised) ---
+        // (っ◔◡◔)っ ♥ payroll management ♥ //
+
         JPanel payrollPanel = new JPanel(new BorderLayout(10, 10));
         payrollPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-        // Configuration Panel (Top Section)
+
         JPanel configPanel = new JPanel(new GridBagLayout());
         configPanel.setBorder(BorderFactory.createTitledBorder("Payroll Configuration"));
         GridBagConstraints gbc = new GridBagConstraints();
@@ -988,7 +1033,7 @@ class PayrollGUI {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.weightx = 1.0;
 
-        // Consistent font for labels and values
+        // font for labels and values
         Font labelFont = new Font("Arial", Font.PLAIN, 12);
         Font valueFont = new Font("Arial", Font.BOLD, 12);
 
@@ -1034,7 +1079,7 @@ class PayrollGUI {
             JOptionPane.showMessageDialog(adminFrame, "Pay period updated to: " + selectedPeriod);
         });
 
-        // Tax Rate (Editable)
+        // Tax Rate
         gbc.gridx = 0;
         gbc.gridy = 2;
         JLabel taxRateLabel = new JLabel("Tax Rate (BIR):");
@@ -1070,7 +1115,7 @@ class PayrollGUI {
             }
         });
 
-        // Payroll Overview Panel (Center Section) - Unchanged
+        // Payroll Overview Panel
         JPanel overviewPanel = new JPanel(new BorderLayout(5, 5));
         overviewPanel.setBorder(BorderFactory.createTitledBorder("Latest Payroll Run Overview"));
         JTextPane overviewTextPane = new JTextPane();
@@ -1125,11 +1170,14 @@ class PayrollGUI {
         payrollPanel.add(buttonsPanel, BorderLayout.SOUTH);
         tabbedPane.addTab("Payroll Management", payrollPanel);
 
-        // --- Employee Management Tab (Updated) ---
+
+
+        // --- (っ◔◡◔)っ ♥ Employee Management ♥ ---
+
         JPanel employeePanel = new JPanel(new BorderLayout(10, 10));
         employeePanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-        // Employee List Panel (WEST)
+        // Employee List Panel
         JPanel employeeListPanel = new JPanel(new BorderLayout());
         employeeListPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
         JList<Employee> employeeJList = new JList<>();
@@ -1144,7 +1192,7 @@ class PayrollGUI {
         employeeListPanel.add(employeeListScrollPane, BorderLayout.CENTER);
         employeePanel.add(employeeListPanel, BorderLayout.WEST);
 
-        // Employee Search and Add Panel (NORTH)
+        // Employee Search and Add Panel
         JPanel searchPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         JLabel searchLabel = new JLabel("Search Employee ID:");
         JTextField searchTextField = new JTextField(10);
@@ -1156,7 +1204,7 @@ class PayrollGUI {
         searchPanel.add(addEmployeeButton);
         employeePanel.add(searchPanel, BorderLayout.NORTH);
 
-        // Employee Form Panel (CENTER)
+        // Employee Form Panel
         JPanel formPanel = new JPanel(new GridLayout(20, 2, 5, 5));
         formPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
@@ -1202,7 +1250,7 @@ class PayrollGUI {
 
         employeePanel.add(formPanel, BorderLayout.CENTER);
 
-        // Button Panel (SOUTH) - Renamed to avoid conflict
+        // Button Panel
         JPanel employeeButtonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER)); // Renamed to employeeButtonPanel
         JButton saveButton = createButton("Save Changes", "Save the edited employee information");
         JButton deleteButton = createButton("Delete Employee", "Permanently delete the selected employee");
@@ -1367,7 +1415,8 @@ class PayrollGUI {
 
         tabbedPane.addTab("Employee Management", employeePanel);
 
-        // --- Reporting Tab (Unchanged) ---
+        // --- (っ◔◡◔)っ ♥ Reporting Tab ♥ ---
+
         JPanel reportingPanel = new JPanel(new BorderLayout(10, 10));
         reportingPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
@@ -1474,11 +1523,11 @@ class PayrollGUI {
 
         tabbedPane.addTab("Reporting", reportingPanel);
 
-        // --- Leave Management Tab (Updated) ---
+        // --- (っ◔◡◔)っ ♥ Leave Management Tab ♥ ---
         JPanel leavePanel = new JPanel(new BorderLayout(10, 10));
         leavePanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-// Filter Panel (NORTH)
+        // Filter Panel
         JPanel leaveFilterPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 5));
         leaveFilterPanel.setBorder(BorderFactory.createTitledBorder("Filter Options"));
         JLabel filterLabel = new JLabel("Filter by Status:");
@@ -1490,7 +1539,7 @@ class PayrollGUI {
         leaveFilterPanel.add(filterLabel);
         leaveFilterPanel.add(statusFilter);
 
-// Leave Requests List Panel (CENTER - WEST)
+        // Leave Requests List Panel
         JPanel leaveRequestsPanel = new JPanel(new BorderLayout(5, 5));
         leaveRequestsPanel.setBorder(BorderFactory.createTitledBorder("Leave Requests"));
         DefaultListModel<LeaveRequest> leaveRequestListModel = new DefaultListModel<>();
@@ -1501,7 +1550,7 @@ class PayrollGUI {
         leaveListScrollPane.setPreferredSize(new Dimension(300, 400));
         leaveRequestsPanel.add(leaveListScrollPane, BorderLayout.CENTER);
 
-// Details Panel (CENTER - EAST)
+        // Details Panel
         JPanel detailsPanel = new JPanel(new GridBagLayout());
         detailsPanel.setBorder(BorderFactory.createTitledBorder("Request Details"));
         GridBagConstraints leaveGbc = new GridBagConstraints(); // Renamed to avoid conflict
@@ -1528,12 +1577,12 @@ class PayrollGUI {
         JLabel employeeNameValue = new JLabel("");
         employeeNameValue.setFont(leaveValueFont);
 
-        JLabel leaveStartDateLabel = new JLabel("Start Date:"); // Renamed to avoid conflict
+        JLabel leaveStartDateLabel = new JLabel("Start Date:");
         leaveStartDateLabel.setFont(leaveLabelFont);
         JLabel startDateValue = new JLabel("");
         startDateValue.setFont(leaveValueFont);
 
-        JLabel leaveEndDateLabel = new JLabel("End Date:"); // Renamed to avoid conflict
+        JLabel leaveEndDateLabel = new JLabel("End Date:");
         leaveEndDateLabel.setFont(leaveLabelFont);
         JLabel endDateValue = new JLabel("");
         endDateValue.setFont(leaveValueFont);
@@ -1552,7 +1601,7 @@ class PayrollGUI {
         JLabel statusValue = new JLabel("");
         statusValue.setFont(leaveValueFont);
 
-// Layout details panel
+        // Layout details panel
         leaveGbc.gridx = 0; leaveGbc.gridy = 0;
         detailsPanel.add(requestIdLabel, leaveGbc);
         leaveGbc.gridx = 1;
@@ -1588,27 +1637,28 @@ class PayrollGUI {
         leaveGbc.gridx = 1;
         detailsPanel.add(statusValue, leaveGbc);
 
-// Buttons Panel (SOUTH)
+        // Buttons Panel
         JPanel leaveButtonsPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 5));
         JButton approveButton = createButton("Approve", "Approve selected leave request");
         JButton denyButton = createButton("Deny", "Deny selected leave request");
         leaveButtonsPanel.add(approveButton);
         leaveButtonsPanel.add(denyButton);
 
-// Split Pane for List and Details
+        // Split Pane for List and Details
         JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, leaveRequestsPanel, detailsPanel);
-        splitPane.setDividerLocation(300); // Initial divider position
-        splitPane.setResizeWeight(0.4); // 40% list, 60% details
+        splitPane.setDividerLocation(300);
+        splitPane.setResizeWeight(0.4);
 
-// Assemble Leave Panel
+        // Assemble Leave Panel
         leavePanel.add(leaveFilterPanel, BorderLayout.NORTH);
         leavePanel.add(splitPane, BorderLayout.CENTER);
         leavePanel.add(leaveButtonsPanel, BorderLayout.SOUTH);
 
-// Populate initial list
+        // Populate initial list
         refreshLeaveRequestListModel("All", leaveRequestListModel);
 
-// Action Listeners
+
+        // Action Listeners
         approveButton.addActionListener(e -> {
             LeaveRequest selectedRequest = leaveJList.getSelectedValue();
             if (selectedRequest != null) {
@@ -1670,7 +1720,7 @@ class PayrollGUI {
         adminFrame.setLocationRelativeTo(null);
     }
 
-    // Helper method to generate a new employee ID (unchanged)
+    // Helper method to generate a new employee ID
     private int generateNewEmployeeId() {
         if (employeeRecords.employees.isEmpty()) {
             return 1;
@@ -1689,6 +1739,8 @@ class PayrollGUI {
             }
         }
     }
+
+    // populate to form
     private void populateEmployeeForm(Employee employee, JTextField idField, JTextField lastNameField, JTextField firstNameField, JTextField birthdayField, JTextField addressField, JTextField phoneField, JTextField sssField, JTextField philhealthField, JTextField tinField, JTextField pagIbigField, JTextField statusField, JTextField positionField, JTextField supervisorField, JTextField salaryField, JTextField riceField, JTextField phoneAllowanceField, JTextField clothingAllowanceField, JTextField grossSemiMonthlyPayField, JTextField hourlyRateField) {
         idField.setText(String.valueOf(employee.getEmployeeId()));
         lastNameField.setText(employee.getLastName());
@@ -1712,7 +1764,7 @@ class PayrollGUI {
     }
 
     private Employee createEmployeeFromForm(JTextField idField, JTextField lastNameField, JTextField firstNameField, JTextField birthdayField, JTextField addressField, JTextField phoneField, JTextField sssField, JTextField philhealthField, JTextField tinField, JTextField pagIbigField, JTextField statusField, JTextField positionField, JTextField supervisorField, JTextField salaryField, JTextField riceField, JTextField phoneAllowanceField, JTextField clothingAllowanceField, JTextField grossSemiMonthlyPayField, JTextField hourlyRateField) {
-        // --- Input Validation ---
+        // --- Input Validation --- //
         if (lastNameField.getText().trim().isEmpty()) {
             throw new IllegalArgumentException("Last Name cannot be empty.");
         }
@@ -1785,8 +1837,7 @@ class PayrollGUI {
 
 
     }
-
-    // --- Custom ListCellRenderer for Employee JList ---
+    // Custom renderers
     private static class EmployeeListRenderer extends DefaultListCellRenderer {
         @Override
         public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
@@ -1800,7 +1851,6 @@ class PayrollGUI {
         }
     }
 
-    // Custom renderer for leave requests
     private static class LeaveRequestListRenderer extends DefaultListCellRenderer {
         @Override
         public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
@@ -1842,6 +1892,12 @@ class PayrollGUI {
         statusValue.setText("");
     }
 
+    //                         __                                          __        __
+    //  ___  ____ ___  ____  / /___  __  _____  ___     ____  ____  _____/ /_____ _/ /
+    // / _ \/ __ `__ \/ __ \/ / __ \/ / / / _ \/ _ \   / __ \/ __ \/ ___/ __/ __ `/ /
+    ///  __/ / / / / / /_/ / / /_/ / /_/ /  __/  __/  / /_/ / /_/ / /  / /_/ /_/ / /
+    //\___/_/ /_/ /_/ .___/_/\____/\__, /\___/\___/  / .___/\____/_/   \__/\__,_/_/
+    //             /_/            /____/            /_/
 
     public void accessEmployeePortal() {
         JFrame employeeFrame = new JFrame("Employee Portal");
@@ -1849,7 +1905,7 @@ class PayrollGUI {
         employeeFrame.setSize(900, 600);
         employeeFrame.setLayout(new BorderLayout());
 
-        // Welcome Label (NORTH)
+        // Welcome Label
         JLabel welcomeLabel = new JLabel("Welcome, " + loggedInEmployee.getFirstName() + "!", SwingConstants.CENTER);
         welcomeLabel.setFont(new Font("Arial", Font.BOLD, 16));
         employeeFrame.add(welcomeLabel, BorderLayout.NORTH);
@@ -1857,7 +1913,7 @@ class PayrollGUI {
         // Main content panel with tabs
         JTabbedPane tabbedPane = new JTabbedPane();
 
-        // --- Pay Tab ---
+        // --- (っ◔◡◔)っ ♥ Pay Tab ♥ ---
         JPanel payPanel = new JPanel(new BorderLayout(10, 10));
         payPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
@@ -1888,11 +1944,13 @@ class PayrollGUI {
         payPanel.add(payslipsListPanel, BorderLayout.CENTER);
         payPanel.add(payButtonPanel, BorderLayout.SOUTH); // Button panel below the list
         tabbedPane.addTab("Pay", payPanel);
-// --- Leave Tab ---
+
+
+        // --- (っ◔◡◔)っ ♥ Leave Tab ♥ ---
         JPanel leavePanel = new JPanel(new BorderLayout(10, 10));
         leavePanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-        // Filter Panel (NORTH)
+        // Filter Panel
         JPanel leaveFilterPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         JLabel filterLabel = new JLabel("Filter by Status:");
         String[] statusOptions = {"All", "Pending", "Approved", "Denied"};
@@ -1901,7 +1959,7 @@ class PayrollGUI {
         leaveFilterPanel.add(filterLabel);
         leaveFilterPanel.add(statusFilter);
 
-        // Leave Requests List Panel (CENTER - WEST)
+        // Leave Requests List Panel
         JPanel leaveListPanel = new JPanel(new BorderLayout(5, 5));
         leaveListPanel.setBorder(BorderFactory.createTitledBorder("Your Leave Requests"));
         DefaultListModel<LeaveRequest> leaveListModel = new DefaultListModel<>();
@@ -1912,7 +1970,7 @@ class PayrollGUI {
         leaveScrollPane.setPreferredSize(new Dimension(300, 400));
         leaveListPanel.add(leaveScrollPane, BorderLayout.CENTER);
 
-        // Details Panel (CENTER - EAST)
+        // Details Panel
         JPanel detailsPanel = new JPanel(new GridBagLayout());
         detailsPanel.setBorder(BorderFactory.createTitledBorder("Request Details"));
         GridBagConstraints empLeaveGbc = new GridBagConstraints();
@@ -1998,7 +2056,7 @@ class PayrollGUI {
         empLeaveGbc.gridx = 1;
         detailsPanel.add(empStatusValue, empLeaveGbc);
 
-        // Buttons Panel (SOUTH)
+        // Buttons Panel
         JPanel leaveButtonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 5));
         JButton requestLeaveButton = createButton("Request Leave", "Submit a new leave request");
         JButton editLeaveButton = createButton("Edit", "Edit the selected pending leave request");
@@ -2056,7 +2114,7 @@ class PayrollGUI {
 
         tabbedPane.addTab("Leave", leavePanel);
 
-        // --- Attendance Tab ---
+        // --- (っ◔◡◔)っ ♥ Attendance Tab ♥ ---
         JPanel attendancePanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         attendancePanel.setBorder(new EmptyBorder(10, 10, 10, 10));
         JButton clockInButton = createButton("Clock In", "Record your clock-in time");
@@ -2074,8 +2132,6 @@ class PayrollGUI {
         for (PayrollGUI.PayrollData data : employeePayroll) {
             payslipListModel.addElement(data.getRunDate().format(dateFormatter));
         }
-
-        // --- Action Listeners ---
 
         // Generate Payslip Button
         generatePayslipButton.addActionListener(e -> {
@@ -2188,12 +2244,14 @@ class PayrollGUI {
         employeeFrame.setVisible(true);
         employeeFrame.setLocationRelativeTo(null);
     }
+
+    // dialog for request leave
     private void createRequestLeaveDialog(JFrame parentFrame) {
         JDialog dialog = new JDialog(parentFrame, "Request Leave", true);
         dialog.setLayout(new BorderLayout());
         dialog.setSize(new Dimension(400, 300));
 
-        JPanel formPanel = new JPanel(new GridLayout(3, 2, 5, 5)); // Adjusted GridLayout to 3 rows
+        JPanel formPanel = new JPanel(new GridLayout(3, 2, 5, 5));
         formPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
         JLabel startDateLabel = new JLabel("Start Date:");
@@ -2207,8 +2265,8 @@ class PayrollGUI {
         endDateSpinner.setEditor(endDateEditor);
 
         JLabel reasonLabel = new JLabel("Reason for Leave:");
-        JTextArea reasonTextArea = new JTextArea(5, 20); // Multi-line text area for reason
-        JScrollPane reasonScrollPane = new JScrollPane(reasonTextArea); // Scrollable if reason is long
+        JTextArea reasonTextArea = new JTextArea(5, 20);
+        JScrollPane reasonScrollPane = new JScrollPane(reasonTextArea);
 
         formPanel.add(startDateLabel); formPanel.add(startDateSpinner);
         formPanel.add(endDateLabel); formPanel.add(endDateSpinner);
@@ -2348,6 +2406,13 @@ class PayrollGUI {
         dialog.setVisible(true);
     }
 
+    //                      __           __  _       __                                                               __                      __        __
+    //  _____________  ____/ /__  ____  / /_(_)___ _/ /  ____ ___  ____ _____  ____ _____ ____  ____ ___  ___  ____  / /_   ____  ____  _____/ /_____ _/ /
+    // / ___/ ___/ _ \/ __  / _ \/ __ \/ __/ / __ `/ /  / __ `__ \/ __ `/ __ \/ __ `/ __ `/ _ \/ __ `__ \/ _ \/ __ \/ __/  / __ \/ __ \/ ___/ __/ __ `/ /
+    /// /__/ /  /  __/ /_/ /  __/ / / / /_/ / /_/ / /  / / / / / / /_/ / / / / /_/ / /_/ /  __/ / / / / /  __/ / / / /_   / /_/ / /_/ / /  / /_/ /_/ / /
+    //\___/_/   \___/\__,_/\___/_/ /_/\__/_/\__,_/_/  /_/ /_/ /_/\__,_/_/ /_/\__,_/\__, /\___/_/ /_/ /_/\___/_/ /_/\__/  / .___/\____/_/   \__/\__,_/_/
+    //                                                                            /____/                                /_/
+
     public void accessCredentialManagementPortal() {
         JFrame itFrame = new JFrame("Credential Management Portal");
         itFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -2361,7 +2426,7 @@ class PayrollGUI {
         JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
         mainPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
-        // Search Panel (NORTH)
+        // Search Panel
         JPanel searchPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         JLabel searchLabel = new JLabel("Search Employee ID:");
         JTextField searchTextField = new JTextField(10);
@@ -2371,7 +2436,7 @@ class PayrollGUI {
         searchPanel.add(searchButton);
         mainPanel.add(searchPanel, BorderLayout.NORTH);
 
-        // Employee List Panel (WEST)
+        // Employee List Panel
         JPanel employeeListPanel = new JPanel(new BorderLayout());
         employeeListPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
         DefaultListModel<Employee> employeeListModel = new DefaultListModel<>();
@@ -2385,7 +2450,7 @@ class PayrollGUI {
         employeeListPanel.add(employeeListScrollPane, BorderLayout.CENTER);
         mainPanel.add(employeeListPanel, BorderLayout.WEST);
 
-        // Credential Edit Panel (CENTER)
+        // Credential Edit Panel
         JPanel credentialPanel = new JPanel(new GridLayout(2, 2, 5, 5));
         credentialPanel.setBorder(BorderFactory.createTitledBorder("Edit Credentials"));
         JLabel usernameLabel = new JLabel("Username (Employee ID):");
@@ -2399,7 +2464,7 @@ class PayrollGUI {
         credentialPanel.add(passwordField);
         mainPanel.add(credentialPanel, BorderLayout.CENTER);
 
-        // Button Panel (SOUTH)
+        // Button Panel
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         JButton saveButton = createButton("Save", "Save the new password");
         JButton clearButton = createButton("Clear", "Clear the form");
@@ -2478,6 +2543,8 @@ class PayrollGUI {
         button.setToolTipText(tooltip);
         return button;
     }
+
+    // run payroll related methods //
 
     private void runPayroll() {
         JFrame payrollFrame = new JFrame("Run Payroll");
