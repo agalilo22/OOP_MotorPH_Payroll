@@ -1,5 +1,4 @@
 Employee #,Last Name,First Name,Date,Log In,Log Out
-10001,Garcia,Manuel III,06/03/2024,8:59:00 AM,6:31:00 PM
 10002,Lim,Antonio,06/03/2024,10:35:00 AM,7:44:00 PM
 10003,Aquino,Bianca Sofia,06/03/2024,10:23:00 AM,6:32:00 PM
 10004,Reyes,Isabella,06/03/2024,10:57:00 AM,6:14:00 PM
@@ -33,7 +32,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/03/2024,8:29:00 AM,4:46:00 PM
 10033,Martinez,Carlos Ian,06/03/2024,10:02:00 AM,7:39:00 PM
 10034,Santos,Beatriz,06/03/2024,10:05:00 AM,6:12:00 PM
-10001,Garcia,Manuel III,06/04/2024,9:47:00 AM,7:07:00 PM
 10002,Lim,Antonio,06/04/2024,10:11:00 AM,8:16:00 PM
 10003,Aquino,Bianca Sofia,06/04/2024,10:45:00 AM,8:37:00 PM
 10004,Reyes,Isabella,06/04/2024,9:45:00 AM,4:54:00 PM
@@ -67,7 +65,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/04/2024,8:48:00 AM,4:36:00 PM
 10033,Martinez,Carlos Ian,06/04/2024,10:10:00 AM,6:54:00 PM
 10034,Santos,Beatriz,06/04/2024,9:35:00 AM,7:15:00 PM
-10001,Garcia,Manuel III,06/05/2024,10:57:00 AM,9:32:00 PM
 10002,Lim,Antonio,06/05/2024,9:24:00 AM,7:19:00 PM
 10003,Aquino,Bianca Sofia,06/05/2024,9:18:00 AM,6:46:00 PM
 10004,Reyes,Isabella,06/05/2024,8:44:00 AM,6:31:00 PM
@@ -101,7 +98,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/05/2024,10:33:00 AM,7:11:00 PM
 10033,Martinez,Carlos Ian,06/05/2024,9:59:00 AM,6:34:00 PM
 10034,Santos,Beatriz,06/05/2024,10:38:00 AM,6:12:00 PM
-10001,Garcia,Manuel III,06/06/2024,9:32:00 AM,7:15:00 PM
 10002,Lim,Antonio,06/06/2024,10:47:00 AM,8:43:00 PM
 10003,Aquino,Bianca Sofia,06/06/2024,10:10:00 AM,6:01:00 PM
 10004,Reyes,Isabella,06/06/2024,10:09:00 AM,6:01:00 PM
@@ -135,7 +131,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/06/2024,10:24:00 AM,8:21:00 PM
 10033,Martinez,Carlos Ian,06/06/2024,10:55:00 AM,9:16:00 PM
 10034,Santos,Beatriz,06/06/2024,9:49:00 AM,7:09:00 PM
-10001,Garcia,Manuel III,06/07/2024,9:46:00 AM,7:15:00 PM
 10002,Lim,Antonio,06/07/2024,9:41:00 AM,8:01:00 PM
 10003,Aquino,Bianca Sofia,06/07/2024,10:22:00 AM,8:15:00 PM
 10004,Reyes,Isabella,06/07/2024,9:28:00 AM,6:11:00 PM
@@ -169,7 +164,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/07/2024,8:52:00 AM,7:40:00 PM
 10033,Martinez,Carlos Ian,06/07/2024,8:02:00 AM,3:02:00 PM
 10034,Santos,Beatriz,06/07/2024,10:38:00 AM,9:21:00 PM
-10001,Garcia,Manuel III,06/10/2024,9:10:00 AM,6:36:00 PM
 10002,Lim,Antonio,06/10/2024,8:02:00 AM,6:40:00 PM
 10003,Aquino,Bianca Sofia,06/10/2024,8:58:00 AM,5:52:00 PM
 10004,Reyes,Isabella,06/10/2024,10:10:00 AM,6:58:00 PM
@@ -203,7 +197,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/10/2024,10:13:00 AM,8:59:00 PM
 10033,Martinez,Carlos Ian,06/10/2024,8:14:00 AM,5:40:00 PM
 10034,Santos,Beatriz,06/10/2024,8:01:00 AM,5:28:00 PM
-10001,Garcia,Manuel III,06/11/2024,10:30:00 AM,8:53:00 PM
 10002,Lim,Antonio,06/11/2024,9:55:00 AM,7:49:00 PM
 10003,Aquino,Bianca Sofia,06/11/2024,9:35:00 AM,5:06:00 PM
 10004,Reyes,Isabella,06/11/2024,9:28:00 AM,8:26:00 PM
@@ -237,7 +230,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/11/2024,9:11:00 AM,5:52:00 PM
 10033,Martinez,Carlos Ian,06/11/2024,10:15:00 AM,8:21:00 PM
 10034,Santos,Beatriz,06/11/2024,10:39:00 AM,5:46:00 PM
-10001,Garcia,Manuel III,06/12/2024,8:37:00 AM,6:25:00 PM
 10002,Lim,Antonio,06/12/2024,9:04:00 AM,6:20:00 PM
 10003,Aquino,Bianca Sofia,06/12/2024,10:51:00 AM,8:14:00 PM
 10004,Reyes,Isabella,06/12/2024,9:12:00 AM,4:56:00 PM
@@ -271,7 +263,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/12/2024,9:16:00 AM,7:11:00 PM
 10033,Martinez,Carlos Ian,06/12/2024,8:11:00 AM,5:57:00 PM
 10034,Santos,Beatriz,06/12/2024,8:56:00 AM,6:37:00 PM
-10001,Garcia,Manuel III,06/13/2024,8:24:00 AM,7:20:00 PM
 10002,Lim,Antonio,06/13/2024,8:35:00 AM,6:33:00 PM
 10003,Aquino,Bianca Sofia,06/13/2024,8:53:00 AM,7:06:00 PM
 10004,Reyes,Isabella,06/13/2024,9:49:00 AM,5:38:00 PM
@@ -305,7 +296,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/13/2024,9:00:00 AM,6:18:00 PM
 10033,Martinez,Carlos Ian,06/13/2024,10:17:00 AM,6:35:00 PM
 10034,Santos,Beatriz,06/13/2024,8:35:00 AM,3:37:00 PM
-10001,Garcia,Manuel III,06/14/2024,9:28:00 AM,7:24:00 PM
 10002,Lim,Antonio,06/14/2024,8:22:00 AM,5:34:00 PM
 10003,Aquino,Bianca Sofia,06/14/2024,10:20:00 AM,6:16:00 PM
 10004,Reyes,Isabella,06/14/2024,9:32:00 AM,8:09:00 PM
@@ -339,7 +329,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/14/2024,10:40:00 AM,8:16:00 PM
 10033,Martinez,Carlos Ian,06/14/2024,9:32:00 AM,7:35:00 PM
 10034,Santos,Beatriz,06/14/2024,9:26:00 AM,7:24:00 PM
-10001,Garcia,Manuel III,06/17/2024,9:07:00 AM,7:10:00 PM
 10002,Lim,Antonio,06/17/2024,9:44:00 AM,6:35:00 PM
 10003,Aquino,Bianca Sofia,06/17/2024,10:46:00 AM,8:54:00 PM
 10004,Reyes,Isabella,06/17/2024,8:50:00 AM,5:42:00 PM
@@ -373,7 +362,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/17/2024,10:52:00 AM,6:42:00 PM
 10033,Martinez,Carlos Ian,06/17/2024,9:02:00 AM,5:05:00 PM
 10034,Santos,Beatriz,06/17/2024,8:58:00 AM,4:23:00 PM
-10001,Garcia,Manuel III,06/18/2024,8:32:00 AM,6:35:00 PM
 10002,Lim,Antonio,06/18/2024,9:55:00 AM,5:35:00 PM
 10003,Aquino,Bianca Sofia,06/18/2024,8:38:00 AM,6:30:00 PM
 10004,Reyes,Isabella,06/18/2024,10:56:00 AM,9:09:00 PM
@@ -407,7 +395,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/18/2024,10:16:00 AM,5:23:00 PM
 10033,Martinez,Carlos Ian,06/18/2024,8:06:00 AM,4:59:00 PM
 10034,Santos,Beatriz,06/18/2024,10:36:00 AM,8:55:00 PM
-10001,Garcia,Manuel III,06/19/2024,9:05:00 AM,6:30:00 PM
 10002,Lim,Antonio,06/19/2024,9:29:00 AM,7:35:00 PM
 10003,Aquino,Bianca Sofia,06/19/2024,10:53:00 AM,7:46:00 PM
 10004,Reyes,Isabella,06/19/2024,9:48:00 AM,6:19:00 PM
@@ -441,7 +428,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/19/2024,9:39:00 AM,6:08:00 PM
 10033,Martinez,Carlos Ian,06/19/2024,8:28:00 AM,6:19:00 PM
 10034,Santos,Beatriz,06/19/2024,10:57:00 AM,8:14:00 PM
-10001,Garcia,Manuel III,06/20/2024,9:07:00 AM,8:01:00 PM
 10002,Lim,Antonio,06/20/2024,9:17:00 AM,7:59:00 PM
 10003,Aquino,Bianca Sofia,06/20/2024,10:02:00 AM,6:12:00 PM
 10004,Reyes,Isabella,06/20/2024,8:09:00 AM,4:39:00 PM
@@ -475,7 +461,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/20/2024,9:17:00 AM,5:17:00 PM
 10033,Martinez,Carlos Ian,06/20/2024,8:54:00 AM,4:10:00 PM
 10034,Santos,Beatriz,06/20/2024,8:17:00 AM,4:15:00 PM
-10001,Garcia,Manuel III,06/21/2024,8:19:00 AM,3:24:00 PM
 10002,Lim,Antonio,06/21/2024,10:14:00 AM,7:10:00 PM
 10003,Aquino,Bianca Sofia,06/21/2024,9:03:00 AM,6:01:00 PM
 10004,Reyes,Isabella,06/21/2024,10:59:00 AM,6:50:00 PM
@@ -509,7 +494,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/21/2024,9:48:00 AM,8:29:00 PM
 10033,Martinez,Carlos Ian,06/21/2024,9:14:00 AM,4:35:00 PM
 10034,Santos,Beatriz,06/21/2024,8:52:00 AM,3:59:00 PM
-10001,Garcia,Manuel III,06/24/2024,10:26:00 AM,7:43:00 PM
 10002,Lim,Antonio,06/24/2024,9:08:00 AM,4:12:00 PM
 10003,Aquino,Bianca Sofia,06/24/2024,9:11:00 AM,4:25:00 PM
 10004,Reyes,Isabella,06/24/2024,8:08:00 AM,4:56:00 PM
@@ -543,7 +527,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/24/2024,8:04:00 AM,4:14:00 PM
 10033,Martinez,Carlos Ian,06/24/2024,8:36:00 AM,5:06:00 PM
 10034,Santos,Beatriz,06/24/2024,8:39:00 AM,6:22:00 PM
-10001,Garcia,Manuel III,06/25/2024,9:52:00 AM,5:12:00 PM
 10002,Lim,Antonio,06/25/2024,8:48:00 AM,7:41:00 PM
 10003,Aquino,Bianca Sofia,06/25/2024,10:59:00 AM,7:33:00 PM
 10004,Reyes,Isabella,06/25/2024,9:03:00 AM,4:10:00 PM
@@ -577,7 +560,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/25/2024,8:28:00 AM,4:24:00 PM
 10033,Martinez,Carlos Ian,06/25/2024,10:43:00 AM,8:05:00 PM
 10034,Santos,Beatriz,06/25/2024,8:45:00 AM,7:12:00 PM
-10001,Garcia,Manuel III,06/26/2024,8:23:00 AM,6:51:00 PM
 10002,Lim,Antonio,06/26/2024,9:49:00 AM,6:47:00 PM
 10003,Aquino,Bianca Sofia,06/26/2024,9:39:00 AM,5:15:00 PM
 10004,Reyes,Isabella,06/26/2024,10:25:00 AM,8:19:00 PM
@@ -611,7 +593,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/26/2024,10:50:00 AM,9:40:00 PM
 10033,Martinez,Carlos Ian,06/26/2024,9:33:00 AM,4:35:00 PM
 10034,Santos,Beatriz,06/26/2024,9:40:00 AM,8:14:00 PM
-10001,Garcia,Manuel III,06/27/2024,8:46:00 AM,4:09:00 PM
 10002,Lim,Antonio,06/27/2024,9:42:00 AM,6:48:00 PM
 10003,Aquino,Bianca Sofia,06/27/2024,10:41:00 AM,6:27:00 PM
 10004,Reyes,Isabella,06/27/2024,8:06:00 AM,4:55:00 PM
@@ -645,7 +626,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/27/2024,8:09:00 AM,3:56:00 PM
 10033,Martinez,Carlos Ian,06/27/2024,10:59:00 AM,8:20:00 PM
 10034,Santos,Beatriz,06/27/2024,10:32:00 AM,9:12:00 PM
-10001,Garcia,Manuel III,06/28/2024,9:07:00 AM,6:28:00 PM
 10002,Lim,Antonio,06/28/2024,8:13:00 AM,6:42:00 PM
 10003,Aquino,Bianca Sofia,06/28/2024,9:43:00 AM,7:09:00 PM
 10004,Reyes,Isabella,06/28/2024,8:36:00 AM,5:33:00 PM
@@ -679,7 +659,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,06/28/2024,10:41:00 AM,8:39:00 PM
 10033,Martinez,Carlos Ian,06/28/2024,8:13:00 AM,5:10:00 PM
 10034,Santos,Beatriz,06/28/2024,8:21:00 AM,4:41:00 PM
-10001,Garcia,Manuel III,07/01/2024,9:15:00 AM,7:17:00 PM
 10002,Lim,Antonio,07/01/2024,10:06:00 AM,7:22:00 PM
 10003,Aquino,Bianca Sofia,07/01/2024,9:03:00 AM,8:00:00 PM
 10004,Reyes,Isabella,07/01/2024,10:51:00 AM,9:50:00 PM
@@ -713,7 +692,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/01/2024,10:06:00 AM,5:54:00 PM
 10033,Martinez,Carlos Ian,07/01/2024,10:59:00 AM,8:40:00 PM
 10034,Santos,Beatriz,07/01/2024,9:37:00 AM,5:13:00 PM
-10001,Garcia,Manuel III,07/02/2024,9:33:00 AM,7:06:00 PM
 10002,Lim,Antonio,07/02/2024,10:38:00 AM,6:29:00 PM
 10003,Aquino,Bianca Sofia,07/02/2024,9:06:00 AM,6:09:00 PM
 10004,Reyes,Isabella,07/02/2024,8:01:00 AM,5:19:00 PM
@@ -747,7 +725,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/02/2024,9:55:00 AM,7:47:00 PM
 10033,Martinez,Carlos Ian,07/02/2024,9:57:00 AM,8:03:00 PM
 10034,Santos,Beatriz,07/02/2024,10:25:00 AM,6:34:00 PM
-10001,Garcia,Manuel III,07/03/2024,10:43:00 AM,7:29:00 PM
 10002,Lim,Antonio,07/03/2024,9:53:00 AM,6:07:00 PM
 10003,Aquino,Bianca Sofia,07/03/2024,8:34:00 AM,4:27:00 PM
 10004,Reyes,Isabella,07/03/2024,9:52:00 AM,5:21:00 PM
@@ -781,7 +758,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/03/2024,10:35:00 AM,6:09:00 PM
 10033,Martinez,Carlos Ian,07/03/2024,8:45:00 AM,4:17:00 PM
 10034,Santos,Beatriz,07/03/2024,10:52:00 AM,7:07:00 PM
-10001,Garcia,Manuel III,07/04/2024,8:15:00 AM,6:26:00 PM
 10002,Lim,Antonio,07/04/2024,10:19:00 AM,5:46:00 PM
 10003,Aquino,Bianca Sofia,07/04/2024,8:17:00 AM,4:54:00 PM
 10004,Reyes,Isabella,07/04/2024,9:45:00 AM,7:40:00 PM
@@ -815,7 +791,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/04/2024,9:20:00 AM,5:22:00 PM
 10033,Martinez,Carlos Ian,07/04/2024,10:50:00 AM,6:35:00 PM
 10034,Santos,Beatriz,07/04/2024,8:47:00 AM,6:48:00 PM
-10001,Garcia,Manuel III,07/05/2024,8:00:00 AM,4:29:00 PM
 10002,Lim,Antonio,07/05/2024,9:07:00 AM,5:31:00 PM
 10003,Aquino,Bianca Sofia,07/05/2024,10:18:00 AM,6:10:00 PM
 10004,Reyes,Isabella,07/05/2024,8:46:00 AM,7:08:00 PM
@@ -849,7 +824,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/05/2024,9:02:00 AM,6:57:00 PM
 10033,Martinez,Carlos Ian,07/05/2024,8:11:00 AM,3:23:00 PM
 10034,Santos,Beatriz,07/05/2024,9:47:00 AM,7:50:00 PM
-10001,Garcia,Manuel III,07/08/2024,8:32:00 AM,4:59:00 PM
 10002,Lim,Antonio,07/08/2024,9:53:00 AM,6:32:00 PM
 10003,Aquino,Bianca Sofia,07/08/2024,10:28:00 AM,9:25:00 PM
 10004,Reyes,Isabella,07/08/2024,9:26:00 AM,5:53:00 PM
@@ -883,7 +857,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/08/2024,8:31:00 AM,4:09:00 PM
 10033,Martinez,Carlos Ian,07/08/2024,9:13:00 AM,4:15:00 PM
 10034,Santos,Beatriz,07/08/2024,10:38:00 AM,6:48:00 PM
-10001,Garcia,Manuel III,07/09/2024,9:46:00 AM,6:46:00 PM
 10002,Lim,Antonio,07/09/2024,8:45:00 AM,4:35:00 PM
 10003,Aquino,Bianca Sofia,07/09/2024,9:14:00 AM,8:12:00 PM
 10004,Reyes,Isabella,07/09/2024,9:04:00 AM,5:38:00 PM
@@ -917,7 +890,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/09/2024,9:38:00 AM,6:29:00 PM
 10033,Martinez,Carlos Ian,07/09/2024,8:11:00 AM,4:48:00 PM
 10034,Santos,Beatriz,07/09/2024,8:32:00 AM,4:35:00 PM
-10001,Garcia,Manuel III,07/10/2024,9:02:00 AM,5:37:00 PM
 10002,Lim,Antonio,07/10/2024,9:25:00 AM,6:52:00 PM
 10003,Aquino,Bianca Sofia,07/10/2024,8:51:00 AM,5:54:00 PM
 10004,Reyes,Isabella,07/10/2024,8:08:00 AM,4:22:00 PM
@@ -951,7 +923,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/10/2024,9:50:00 AM,8:05:00 PM
 10033,Martinez,Carlos Ian,07/10/2024,8:29:00 AM,6:36:00 PM
 10034,Santos,Beatriz,07/10/2024,9:41:00 AM,7:11:00 PM
-10001,Garcia,Manuel III,07/11/2024,10:57:00 AM,9:16:00 PM
 10002,Lim,Antonio,07/11/2024,9:54:00 AM,5:39:00 PM
 10003,Aquino,Bianca Sofia,07/11/2024,8:54:00 AM,5:41:00 PM
 10004,Reyes,Isabella,07/11/2024,10:39:00 AM,9:05:00 PM
@@ -985,7 +956,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/11/2024,9:38:00 AM,5:33:00 PM
 10033,Martinez,Carlos Ian,07/11/2024,10:04:00 AM,7:51:00 PM
 10034,Santos,Beatriz,07/11/2024,9:10:00 AM,7:25:00 PM
-10001,Garcia,Manuel III,07/12/2024,8:48:00 AM,5:32:00 PM
 10002,Lim,Antonio,07/12/2024,10:36:00 AM,8:54:00 PM
 10003,Aquino,Bianca Sofia,07/12/2024,8:40:00 AM,6:05:00 PM
 10004,Reyes,Isabella,07/12/2024,9:15:00 AM,8:05:00 PM
@@ -1019,7 +989,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/12/2024,9:21:00 AM,5:04:00 PM
 10033,Martinez,Carlos Ian,07/12/2024,8:05:00 AM,5:38:00 PM
 10034,Santos,Beatriz,07/12/2024,8:18:00 AM,3:45:00 PM
-10001,Garcia,Manuel III,07/15/2024,10:02:00 AM,8:52:00 PM
 10002,Lim,Antonio,07/15/2024,10:43:00 AM,8:24:00 PM
 10003,Aquino,Bianca Sofia,07/15/2024,9:47:00 AM,8:24:00 PM
 10004,Reyes,Isabella,07/15/2024,9:21:00 AM,4:28:00 PM
@@ -1053,7 +1022,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/15/2024,10:41:00 AM,8:40:00 PM
 10033,Martinez,Carlos Ian,07/15/2024,8:22:00 AM,4:51:00 PM
 10034,Santos,Beatriz,07/15/2024,9:22:00 AM,4:57:00 PM
-10001,Garcia,Manuel III,07/16/2024,9:52:00 AM,7:24:00 PM
 10002,Lim,Antonio,07/16/2024,10:54:00 AM,5:56:00 PM
 10003,Aquino,Bianca Sofia,07/16/2024,9:17:00 AM,5:16:00 PM
 10004,Reyes,Isabella,07/16/2024,9:46:00 AM,5:23:00 PM
@@ -1087,7 +1055,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/16/2024,8:11:00 AM,6:25:00 PM
 10033,Martinez,Carlos Ian,07/16/2024,10:24:00 AM,7:28:00 PM
 10034,Santos,Beatriz,07/16/2024,10:46:00 AM,6:30:00 PM
-10001,Garcia,Manuel III,07/17/2024,10:37:00 AM,7:25:00 PM
 10002,Lim,Antonio,07/17/2024,10:32:00 AM,6:35:00 PM
 10003,Aquino,Bianca Sofia,07/17/2024,8:38:00 AM,3:44:00 PM
 10004,Reyes,Isabella,07/17/2024,9:11:00 AM,4:33:00 PM
@@ -1121,7 +1088,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/17/2024,8:27:00 AM,6:47:00 PM
 10033,Martinez,Carlos Ian,07/17/2024,9:47:00 AM,8:40:00 PM
 10034,Santos,Beatriz,07/17/2024,8:07:00 AM,6:11:00 PM
-10001,Garcia,Manuel III,07/18/2024,10:10:00 AM,6:44:00 PM
 10002,Lim,Antonio,07/18/2024,8:15:00 AM,3:25:00 PM
 10003,Aquino,Bianca Sofia,07/18/2024,10:16:00 AM,6:03:00 PM
 10004,Reyes,Isabella,07/18/2024,8:17:00 AM,3:31:00 PM
@@ -1155,7 +1121,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/18/2024,8:45:00 AM,7:18:00 PM
 10033,Martinez,Carlos Ian,07/18/2024,8:57:00 AM,6:04:00 PM
 10034,Santos,Beatriz,07/18/2024,9:31:00 AM,7:34:00 PM
-10001,Garcia,Manuel III,07/19/2024,10:41:00 AM,6:38:00 PM
 10002,Lim,Antonio,07/19/2024,8:38:00 AM,5:18:00 PM
 10003,Aquino,Bianca Sofia,07/19/2024,8:04:00 AM,3:32:00 PM
 10004,Reyes,Isabella,07/19/2024,9:12:00 AM,7:38:00 PM
@@ -1189,7 +1154,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/19/2024,9:25:00 AM,7:02:00 PM
 10033,Martinez,Carlos Ian,07/19/2024,8:55:00 AM,5:58:00 PM
 10034,Santos,Beatriz,07/19/2024,8:28:00 AM,5:20:00 PM
-10001,Garcia,Manuel III,07/22/2024,8:28:00 AM,6:15:00 PM
 10002,Lim,Antonio,07/22/2024,10:28:00 AM,5:50:00 PM
 10003,Aquino,Bianca Sofia,07/22/2024,9:49:00 AM,6:06:00 PM
 10004,Reyes,Isabella,07/22/2024,10:40:00 AM,7:01:00 PM
@@ -1223,7 +1187,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/22/2024,9:30:00 AM,5:45:00 PM
 10033,Martinez,Carlos Ian,07/22/2024,10:40:00 AM,7:12:00 PM
 10034,Santos,Beatriz,07/22/2024,10:31:00 AM,9:12:00 PM
-10001,Garcia,Manuel III,07/23/2024,10:54:00 AM,8:03:00 PM
 10002,Lim,Antonio,07/23/2024,10:43:00 AM,6:49:00 PM
 10003,Aquino,Bianca Sofia,07/23/2024,9:37:00 AM,7:35:00 PM
 10004,Reyes,Isabella,07/23/2024,10:39:00 AM,8:24:00 PM
@@ -1257,7 +1220,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/23/2024,10:43:00 AM,8:24:00 PM
 10033,Martinez,Carlos Ian,07/23/2024,8:13:00 AM,4:22:00 PM
 10034,Santos,Beatriz,07/23/2024,9:56:00 AM,5:12:00 PM
-10001,Garcia,Manuel III,07/24/2024,8:46:00 AM,5:42:00 PM
 10002,Lim,Antonio,07/24/2024,8:15:00 AM,4:09:00 PM
 10003,Aquino,Bianca Sofia,07/24/2024,8:59:00 AM,6:23:00 PM
 10004,Reyes,Isabella,07/24/2024,10:49:00 AM,9:45:00 PM
@@ -1291,7 +1253,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/24/2024,10:12:00 AM,8:47:00 PM
 10033,Martinez,Carlos Ian,07/24/2024,9:25:00 AM,6:36:00 PM
 10034,Santos,Beatriz,07/24/2024,10:06:00 AM,7:59:00 PM
-10001,Garcia,Manuel III,07/25/2024,10:25:00 AM,9:00:00 PM
 10002,Lim,Antonio,07/25/2024,9:40:00 AM,8:20:00 PM
 10003,Aquino,Bianca Sofia,07/25/2024,9:44:00 AM,7:49:00 PM
 10004,Reyes,Isabella,07/25/2024,8:13:00 AM,5:52:00 PM
@@ -1325,7 +1286,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/25/2024,9:01:00 AM,4:03:00 PM
 10033,Martinez,Carlos Ian,07/25/2024,8:14:00 AM,6:00:00 PM
 10034,Santos,Beatriz,07/25/2024,9:13:00 AM,5:52:00 PM
-10001,Garcia,Manuel III,07/26/2024,10:52:00 AM,6:25:00 PM
 10002,Lim,Antonio,07/26/2024,9:34:00 AM,5:50:00 PM
 10003,Aquino,Bianca Sofia,07/26/2024,10:50:00 AM,8:39:00 PM
 10004,Reyes,Isabella,07/26/2024,8:03:00 AM,5:39:00 PM
@@ -1359,7 +1319,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/26/2024,8:31:00 AM,4:19:00 PM
 10033,Martinez,Carlos Ian,07/26/2024,8:17:00 AM,5:34:00 PM
 10034,Santos,Beatriz,07/26/2024,10:55:00 AM,7:37:00 PM
-10001,Garcia,Manuel III,07/29/2024,8:11:00 AM,6:48:00 PM
 10002,Lim,Antonio,07/29/2024,9:40:00 AM,7:16:00 PM
 10003,Aquino,Bianca Sofia,07/29/2024,9:38:00 AM,7:46:00 PM
 10004,Reyes,Isabella,07/29/2024,10:49:00 AM,5:54:00 PM
@@ -1393,7 +1352,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/29/2024,9:12:00 AM,6:13:00 PM
 10033,Martinez,Carlos Ian,07/29/2024,8:45:00 AM,5:39:00 PM
 10034,Santos,Beatriz,07/29/2024,9:08:00 AM,5:52:00 PM
-10001,Garcia,Manuel III,07/30/2024,8:04:00 AM,5:00:00 PM
 10002,Lim,Antonio,07/30/2024,10:52:00 AM,7:07:00 PM
 10003,Aquino,Bianca Sofia,07/30/2024,9:32:00 AM,6:13:00 PM
 10004,Reyes,Isabella,07/30/2024,8:22:00 AM,7:16:00 PM
@@ -1427,7 +1385,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/30/2024,9:22:00 AM,4:23:00 PM
 10033,Martinez,Carlos Ian,07/30/2024,9:44:00 AM,7:35:00 PM
 10034,Santos,Beatriz,07/30/2024,9:48:00 AM,8:17:00 PM
-10001,Garcia,Manuel III,07/31/2024,9:52:00 AM,6:05:00 PM
 10002,Lim,Antonio,07/31/2024,9:19:00 AM,7:31:00 PM
 10003,Aquino,Bianca Sofia,07/31/2024,8:39:00 AM,6:59:00 PM
 10004,Reyes,Isabella,07/31/2024,9:56:00 AM,6:33:00 PM
@@ -1461,7 +1418,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,07/31/2024,9:43:00 AM,8:11:00 PM
 10033,Martinez,Carlos Ian,07/31/2024,8:40:00 AM,4:52:00 PM
 10034,Santos,Beatriz,07/31/2024,8:39:00 AM,5:07:00 PM
-10001,Garcia,Manuel III,08/01/2024,10:08:00 AM,6:21:00 PM
 10002,Lim,Antonio,08/01/2024,10:54:00 AM,8:14:00 PM
 10003,Aquino,Bianca Sofia,08/01/2024,9:32:00 AM,7:37:00 PM
 10004,Reyes,Isabella,08/01/2024,9:42:00 AM,5:04:00 PM
@@ -1495,7 +1451,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/01/2024,8:30:00 AM,7:08:00 PM
 10033,Martinez,Carlos Ian,08/01/2024,8:41:00 AM,6:42:00 PM
 10034,Santos,Beatriz,08/01/2024,8:27:00 AM,3:41:00 PM
-10001,Garcia,Manuel III,08/02/2024,10:30:00 AM,8:48:00 PM
 10002,Lim,Antonio,08/02/2024,10:35:00 AM,7:02:00 PM
 10003,Aquino,Bianca Sofia,08/02/2024,10:51:00 AM,9:25:00 PM
 10004,Reyes,Isabella,08/02/2024,10:33:00 AM,8:11:00 PM
@@ -1529,7 +1484,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/02/2024,9:02:00 AM,6:51:00 PM
 10033,Martinez,Carlos Ian,08/02/2024,8:49:00 AM,4:55:00 PM
 10034,Santos,Beatriz,08/02/2024,8:52:00 AM,5:52:00 PM
-10001,Garcia,Manuel III,08/05/2024,8:01:00 AM,6:19:00 PM
 10002,Lim,Antonio,08/05/2024,9:16:00 AM,6:34:00 PM
 10003,Aquino,Bianca Sofia,08/05/2024,9:32:00 AM,6:25:00 PM
 10004,Reyes,Isabella,08/05/2024,9:55:00 AM,5:04:00 PM
@@ -1563,7 +1517,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/05/2024,10:44:00 AM,8:45:00 PM
 10033,Martinez,Carlos Ian,08/05/2024,8:56:00 AM,7:47:00 PM
 10034,Santos,Beatriz,08/05/2024,8:27:00 AM,3:58:00 PM
-10001,Garcia,Manuel III,08/06/2024,10:01:00 AM,5:37:00 PM
 10002,Lim,Antonio,08/06/2024,10:51:00 AM,8:21:00 PM
 10003,Aquino,Bianca Sofia,08/06/2024,10:30:00 AM,7:38:00 PM
 10004,Reyes,Isabella,08/06/2024,9:31:00 AM,7:48:00 PM
@@ -1597,7 +1550,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/06/2024,10:49:00 AM,9:05:00 PM
 10033,Martinez,Carlos Ian,08/06/2024,8:31:00 AM,5:07:00 PM
 10034,Santos,Beatriz,08/06/2024,9:58:00 AM,6:39:00 PM
-10001,Garcia,Manuel III,08/07/2024,9:21:00 AM,5:17:00 PM
 10002,Lim,Antonio,08/07/2024,8:22:00 AM,3:36:00 PM
 10003,Aquino,Bianca Sofia,08/07/2024,10:53:00 AM,6:42:00 PM
 10004,Reyes,Isabella,08/07/2024,10:01:00 AM,5:25:00 PM
@@ -1631,7 +1583,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/07/2024,8:45:00 AM,4:21:00 PM
 10033,Martinez,Carlos Ian,08/07/2024,10:56:00 AM,6:30:00 PM
 10034,Santos,Beatriz,08/07/2024,8:40:00 AM,7:16:00 PM
-10001,Garcia,Manuel III,08/08/2024,9:15:00 AM,4:54:00 PM
 10002,Lim,Antonio,08/08/2024,10:26:00 AM,7:38:00 PM
 10003,Aquino,Bianca Sofia,08/08/2024,10:44:00 AM,8:30:00 PM
 10004,Reyes,Isabella,08/08/2024,9:10:00 AM,7:03:00 PM
@@ -1665,7 +1616,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/08/2024,10:16:00 AM,6:47:00 PM
 10033,Martinez,Carlos Ian,08/08/2024,10:03:00 AM,5:55:00 PM
 10034,Santos,Beatriz,08/08/2024,9:32:00 AM,5:59:00 PM
-10001,Garcia,Manuel III,08/09/2024,9:35:00 AM,5:16:00 PM
 10002,Lim,Antonio,08/09/2024,9:04:00 AM,6:42:00 PM
 10003,Aquino,Bianca Sofia,08/09/2024,8:06:00 AM,5:40:00 PM
 10004,Reyes,Isabella,08/09/2024,10:15:00 AM,8:33:00 PM
@@ -1699,7 +1649,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/09/2024,8:26:00 AM,4:52:00 PM
 10033,Martinez,Carlos Ian,08/09/2024,8:05:00 AM,5:00:00 PM
 10034,Santos,Beatriz,08/09/2024,10:23:00 AM,9:16:00 PM
-10001,Garcia,Manuel III,08/12/2024,9:56:00 AM,6:02:00 PM
 10002,Lim,Antonio,08/12/2024,10:48:00 AM,8:12:00 PM
 10003,Aquino,Bianca Sofia,08/12/2024,9:59:00 AM,6:18:00 PM
 10004,Reyes,Isabella,08/12/2024,9:25:00 AM,7:39:00 PM
@@ -1733,7 +1682,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/12/2024,9:05:00 AM,4:26:00 PM
 10033,Martinez,Carlos Ian,08/12/2024,8:35:00 AM,6:04:00 PM
 10034,Santos,Beatriz,08/12/2024,8:25:00 AM,6:38:00 PM
-10001,Garcia,Manuel III,08/13/2024,8:34:00 AM,7:00:00 PM
 10002,Lim,Antonio,08/13/2024,9:13:00 AM,7:35:00 PM
 10003,Aquino,Bianca Sofia,08/13/2024,10:33:00 AM,5:44:00 PM
 10004,Reyes,Isabella,08/13/2024,8:44:00 AM,7:08:00 PM
@@ -1767,7 +1715,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/13/2024,9:20:00 AM,4:51:00 PM
 10033,Martinez,Carlos Ian,08/13/2024,8:08:00 AM,4:55:00 PM
 10034,Santos,Beatriz,08/13/2024,9:29:00 AM,4:49:00 PM
-10001,Garcia,Manuel III,08/14/2024,9:59:00 AM,7:51:00 PM
 10002,Lim,Antonio,08/14/2024,9:09:00 AM,7:44:00 PM
 10003,Aquino,Bianca Sofia,08/14/2024,8:29:00 AM,5:22:00 PM
 10004,Reyes,Isabella,08/14/2024,8:42:00 AM,4:32:00 PM
@@ -1801,7 +1748,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/14/2024,9:26:00 AM,7:18:00 PM
 10033,Martinez,Carlos Ian,08/14/2024,8:44:00 AM,5:21:00 PM
 10034,Santos,Beatriz,08/14/2024,8:58:00 AM,5:03:00 PM
-10001,Garcia,Manuel III,08/15/2024,9:41:00 AM,5:24:00 PM
 10002,Lim,Antonio,08/15/2024,10:21:00 AM,6:18:00 PM
 10003,Aquino,Bianca Sofia,08/15/2024,8:24:00 AM,4:39:00 PM
 10004,Reyes,Isabella,08/15/2024,10:33:00 AM,8:50:00 PM
@@ -1835,7 +1781,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/15/2024,8:00:00 AM,3:49:00 PM
 10033,Martinez,Carlos Ian,08/15/2024,8:09:00 AM,5:22:00 PM
 10034,Santos,Beatriz,08/15/2024,10:23:00 AM,6:00:00 PM
-10001,Garcia,Manuel III,08/16/2024,9:46:00 AM,7:13:00 PM
 10002,Lim,Antonio,08/16/2024,9:22:00 AM,5:02:00 PM
 10003,Aquino,Bianca Sofia,08/16/2024,8:32:00 AM,6:03:00 PM
 10004,Reyes,Isabella,08/16/2024,8:49:00 AM,5:13:00 PM
@@ -1869,7 +1814,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/16/2024,9:04:00 AM,7:10:00 PM
 10033,Martinez,Carlos Ian,08/16/2024,9:43:00 AM,5:02:00 PM
 10034,Santos,Beatriz,08/16/2024,8:11:00 AM,3:18:00 PM
-10001,Garcia,Manuel III,08/19/2024,10:46:00 AM,6:08:00 PM
 10002,Lim,Antonio,08/19/2024,8:38:00 AM,6:52:00 PM
 10003,Aquino,Bianca Sofia,08/19/2024,9:47:00 AM,8:02:00 PM
 10004,Reyes,Isabella,08/19/2024,8:31:00 AM,4:38:00 PM
@@ -1903,7 +1847,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/19/2024,8:24:00 AM,7:20:00 PM
 10033,Martinez,Carlos Ian,08/19/2024,9:07:00 AM,7:35:00 PM
 10034,Santos,Beatriz,08/19/2024,9:05:00 AM,6:38:00 PM
-10001,Garcia,Manuel III,08/20/2024,8:15:00 AM,4:12:00 PM
 10002,Lim,Antonio,08/20/2024,8:18:00 AM,6:01:00 PM
 10003,Aquino,Bianca Sofia,08/20/2024,9:10:00 AM,5:30:00 PM
 10004,Reyes,Isabella,08/20/2024,10:51:00 AM,7:48:00 PM
@@ -1937,7 +1880,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/20/2024,8:02:00 AM,5:05:00 PM
 10033,Martinez,Carlos Ian,08/20/2024,9:10:00 AM,4:17:00 PM
 10034,Santos,Beatriz,08/20/2024,10:15:00 AM,5:15:00 PM
-10001,Garcia,Manuel III,08/21/2024,8:56:00 AM,4:56:00 PM
 10002,Lim,Antonio,08/21/2024,9:12:00 AM,6:13:00 PM
 10003,Aquino,Bianca Sofia,08/21/2024,8:19:00 AM,5:16:00 PM
 10004,Reyes,Isabella,08/21/2024,9:17:00 AM,7:07:00 PM
@@ -1971,7 +1913,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/21/2024,9:41:00 AM,5:41:00 PM
 10033,Martinez,Carlos Ian,08/21/2024,10:31:00 AM,6:09:00 PM
 10034,Santos,Beatriz,08/21/2024,9:36:00 AM,5:44:00 PM
-10001,Garcia,Manuel III,08/22/2024,9:33:00 AM,7:48:00 PM
 10002,Lim,Antonio,08/22/2024,8:02:00 AM,6:04:00 PM
 10003,Aquino,Bianca Sofia,08/22/2024,9:28:00 AM,4:46:00 PM
 10004,Reyes,Isabella,08/22/2024,10:18:00 AM,6:24:00 PM
@@ -2005,7 +1946,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/22/2024,8:28:00 AM,5:30:00 PM
 10033,Martinez,Carlos Ian,08/22/2024,9:58:00 AM,6:34:00 PM
 10034,Santos,Beatriz,08/22/2024,10:59:00 AM,6:29:00 PM
-10001,Garcia,Manuel III,08/23/2024,8:25:00 AM,4:27:00 PM
 10002,Lim,Antonio,08/23/2024,9:08:00 AM,5:28:00 PM
 10003,Aquino,Bianca Sofia,08/23/2024,9:27:00 AM,6:50:00 PM
 10004,Reyes,Isabella,08/23/2024,9:33:00 AM,4:56:00 PM
@@ -2039,7 +1979,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/23/2024,10:31:00 AM,7:20:00 PM
 10033,Martinez,Carlos Ian,08/23/2024,9:05:00 AM,4:10:00 PM
 10034,Santos,Beatriz,08/23/2024,8:11:00 AM,5:34:00 PM
-10001,Garcia,Manuel III,08/26/2024,10:12:00 AM,8:48:00 PM
 10002,Lim,Antonio,08/26/2024,10:52:00 AM,8:28:00 PM
 10003,Aquino,Bianca Sofia,08/26/2024,8:53:00 AM,6:58:00 PM
 10004,Reyes,Isabella,08/26/2024,8:47:00 AM,4:27:00 PM
@@ -2073,7 +2012,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/26/2024,8:01:00 AM,4:51:00 PM
 10033,Martinez,Carlos Ian,08/26/2024,9:44:00 AM,7:00:00 PM
 10034,Santos,Beatriz,08/26/2024,9:41:00 AM,5:28:00 PM
-10001,Garcia,Manuel III,08/27/2024,9:08:00 AM,7:12:00 PM
 10002,Lim,Antonio,08/27/2024,10:40:00 AM,6:28:00 PM
 10003,Aquino,Bianca Sofia,08/27/2024,8:34:00 AM,3:49:00 PM
 10004,Reyes,Isabella,08/27/2024,8:54:00 AM,4:36:00 PM
@@ -2107,7 +2045,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/27/2024,10:11:00 AM,5:29:00 PM
 10033,Martinez,Carlos Ian,08/27/2024,9:07:00 AM,4:52:00 PM
 10034,Santos,Beatriz,08/27/2024,10:34:00 AM,5:51:00 PM
-10001,Garcia,Manuel III,08/28/2024,10:20:00 AM,6:35:00 PM
 10002,Lim,Antonio,08/28/2024,8:23:00 AM,4:33:00 PM
 10003,Aquino,Bianca Sofia,08/28/2024,9:50:00 AM,7:36:00 PM
 10004,Reyes,Isabella,08/28/2024,10:38:00 AM,5:41:00 PM
@@ -2141,7 +2078,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/28/2024,8:56:00 AM,5:44:00 PM
 10033,Martinez,Carlos Ian,08/28/2024,9:21:00 AM,6:40:00 PM
 10034,Santos,Beatriz,08/28/2024,9:48:00 AM,8:17:00 PM
-10001,Garcia,Manuel III,08/29/2024,8:07:00 AM,6:00:00 PM
 10002,Lim,Antonio,08/29/2024,8:54:00 AM,6:01:00 PM
 10003,Aquino,Bianca Sofia,08/29/2024,9:01:00 AM,7:34:00 PM
 10004,Reyes,Isabella,08/29/2024,10:18:00 AM,8:49:00 PM
@@ -2175,7 +2111,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/29/2024,9:00:00 AM,4:26:00 PM
 10033,Martinez,Carlos Ian,08/29/2024,9:34:00 AM,6:02:00 PM
 10034,Santos,Beatriz,08/29/2024,10:17:00 AM,7:12:00 PM
-10001,Garcia,Manuel III,08/30/2024,8:45:00 AM,6:35:00 PM
 10002,Lim,Antonio,08/30/2024,9:47:00 AM,7:59:00 PM
 10003,Aquino,Bianca Sofia,08/30/2024,9:51:00 AM,7:41:00 PM
 10004,Reyes,Isabella,08/30/2024,9:30:00 AM,6:59:00 PM
@@ -2209,7 +2144,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,08/30/2024,8:22:00 AM,4:55:00 PM
 10033,Martinez,Carlos Ian,08/30/2024,10:32:00 AM,5:43:00 PM
 10034,Santos,Beatriz,08/30/2024,9:51:00 AM,6:30:00 PM
-10001,Garcia,Manuel III,09/02/2024,10:31:00 AM,8:13:00 PM
 10002,Lim,Antonio,09/02/2024,10:36:00 AM,6:54:00 PM
 10003,Aquino,Bianca Sofia,09/02/2024,8:20:00 AM,3:28:00 PM
 10004,Reyes,Isabella,09/02/2024,8:31:00 AM,6:14:00 PM
@@ -2243,7 +2177,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/02/2024,9:15:00 AM,8:05:00 PM
 10033,Martinez,Carlos Ian,09/02/2024,9:03:00 AM,4:22:00 PM
 10034,Santos,Beatriz,09/02/2024,8:11:00 AM,6:56:00 PM
-10001,Garcia,Manuel III,09/03/2024,10:49:00 AM,7:10:00 PM
 10002,Lim,Antonio,09/03/2024,9:22:00 AM,5:22:00 PM
 10003,Aquino,Bianca Sofia,09/03/2024,10:48:00 AM,9:27:00 PM
 10004,Reyes,Isabella,09/03/2024,9:50:00 AM,6:41:00 PM
@@ -2277,7 +2210,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/03/2024,8:36:00 AM,6:54:00 PM
 10033,Martinez,Carlos Ian,09/03/2024,10:10:00 AM,8:34:00 PM
 10034,Santos,Beatriz,09/03/2024,10:11:00 AM,7:45:00 PM
-10001,Garcia,Manuel III,09/04/2024,9:53:00 AM,6:13:00 PM
 10002,Lim,Antonio,09/04/2024,10:55:00 AM,8:44:00 PM
 10003,Aquino,Bianca Sofia,09/04/2024,10:50:00 AM,7:39:00 PM
 10004,Reyes,Isabella,09/04/2024,8:27:00 AM,6:00:00 PM
@@ -2311,7 +2243,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/04/2024,10:29:00 AM,8:44:00 PM
 10033,Martinez,Carlos Ian,09/04/2024,9:18:00 AM,4:58:00 PM
 10034,Santos,Beatriz,09/04/2024,10:00:00 AM,7:23:00 PM
-10001,Garcia,Manuel III,09/05/2024,8:07:00 AM,5:24:00 PM
 10002,Lim,Antonio,09/05/2024,9:42:00 AM,4:59:00 PM
 10003,Aquino,Bianca Sofia,09/05/2024,8:01:00 AM,3:24:00 PM
 10004,Reyes,Isabella,09/05/2024,9:07:00 AM,6:46:00 PM
@@ -2345,7 +2276,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/05/2024,10:19:00 AM,7:30:00 PM
 10033,Martinez,Carlos Ian,09/05/2024,8:09:00 AM,6:45:00 PM
 10034,Santos,Beatriz,09/05/2024,9:28:00 AM,5:04:00 PM
-10001,Garcia,Manuel III,09/06/2024,8:04:00 AM,6:25:00 PM
 10002,Lim,Antonio,09/06/2024,9:16:00 AM,6:35:00 PM
 10003,Aquino,Bianca Sofia,09/06/2024,10:53:00 AM,8:20:00 PM
 10004,Reyes,Isabella,09/06/2024,10:09:00 AM,5:43:00 PM
@@ -2379,7 +2309,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/06/2024,9:32:00 AM,6:22:00 PM
 10033,Martinez,Carlos Ian,09/06/2024,9:55:00 AM,5:42:00 PM
 10034,Santos,Beatriz,09/06/2024,8:51:00 AM,7:36:00 PM
-10001,Garcia,Manuel III,09/09/2024,10:33:00 AM,5:50:00 PM
 10002,Lim,Antonio,09/09/2024,10:21:00 AM,5:25:00 PM
 10003,Aquino,Bianca Sofia,09/09/2024,8:14:00 AM,7:04:00 PM
 10004,Reyes,Isabella,09/09/2024,10:40:00 AM,6:25:00 PM
@@ -2413,7 +2342,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/09/2024,8:05:00 AM,4:37:00 PM
 10033,Martinez,Carlos Ian,09/09/2024,10:24:00 AM,5:59:00 PM
 10034,Santos,Beatriz,09/09/2024,10:59:00 AM,8:29:00 PM
-10001,Garcia,Manuel III,09/10/2024,10:51:00 AM,8:42:00 PM
 10002,Lim,Antonio,09/10/2024,8:39:00 AM,7:33:00 PM
 10003,Aquino,Bianca Sofia,09/10/2024,10:15:00 AM,5:55:00 PM
 10004,Reyes,Isabella,09/10/2024,8:13:00 AM,6:42:00 PM
@@ -2447,7 +2375,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/10/2024,8:01:00 AM,4:13:00 PM
 10033,Martinez,Carlos Ian,09/10/2024,10:37:00 AM,9:30:00 PM
 10034,Santos,Beatriz,09/10/2024,9:20:00 AM,6:48:00 PM
-10001,Garcia,Manuel III,09/11/2024,9:40:00 AM,6:52:00 PM
 10002,Lim,Antonio,09/11/2024,9:01:00 AM,6:38:00 PM
 10003,Aquino,Bianca Sofia,09/11/2024,9:57:00 AM,5:42:00 PM
 10004,Reyes,Isabella,09/11/2024,8:19:00 AM,5:38:00 PM
@@ -2481,7 +2408,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/11/2024,10:10:00 AM,6:15:00 PM
 10033,Martinez,Carlos Ian,09/11/2024,8:15:00 AM,3:46:00 PM
 10034,Santos,Beatriz,09/11/2024,9:17:00 AM,7:05:00 PM
-10001,Garcia,Manuel III,09/12/2024,9:56:00 AM,5:02:00 PM
 10002,Lim,Antonio,09/12/2024,10:55:00 AM,9:53:00 PM
 10003,Aquino,Bianca Sofia,09/12/2024,9:58:00 AM,7:07:00 PM
 10004,Reyes,Isabella,09/12/2024,9:32:00 AM,7:39:00 PM
@@ -2515,7 +2441,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/12/2024,10:52:00 AM,6:14:00 PM
 10033,Martinez,Carlos Ian,09/12/2024,10:22:00 AM,7:54:00 PM
 10034,Santos,Beatriz,09/12/2024,8:26:00 AM,4:02:00 PM
-10001,Garcia,Manuel III,09/13/2024,8:25:00 AM,5:20:00 PM
 10002,Lim,Antonio,09/13/2024,9:58:00 AM,7:01:00 PM
 10003,Aquino,Bianca Sofia,09/13/2024,9:21:00 AM,7:39:00 PM
 10004,Reyes,Isabella,09/13/2024,10:47:00 AM,7:42:00 PM
@@ -2549,7 +2474,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/13/2024,10:01:00 AM,7:28:00 PM
 10033,Martinez,Carlos Ian,09/13/2024,10:56:00 AM,9:28:00 PM
 10034,Santos,Beatriz,09/13/2024,10:09:00 AM,9:04:00 PM
-10001,Garcia,Manuel III,09/16/2024,8:25:00 AM,5:02:00 PM
 10002,Lim,Antonio,09/16/2024,9:02:00 AM,5:24:00 PM
 10003,Aquino,Bianca Sofia,09/16/2024,9:28:00 AM,5:05:00 PM
 10004,Reyes,Isabella,09/16/2024,9:59:00 AM,5:12:00 PM
@@ -2583,7 +2507,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/16/2024,9:23:00 AM,7:37:00 PM
 10033,Martinez,Carlos Ian,09/16/2024,10:28:00 AM,7:10:00 PM
 10034,Santos,Beatriz,09/16/2024,9:15:00 AM,7:43:00 PM
-10001,Garcia,Manuel III,09/17/2024,8:17:00 AM,4:22:00 PM
 10002,Lim,Antonio,09/17/2024,8:38:00 AM,4:59:00 PM
 10003,Aquino,Bianca Sofia,09/17/2024,9:50:00 AM,7:10:00 PM
 10004,Reyes,Isabella,09/17/2024,9:03:00 AM,8:00:00 PM
@@ -2617,7 +2540,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/17/2024,9:58:00 AM,8:17:00 PM
 10033,Martinez,Carlos Ian,09/17/2024,10:39:00 AM,5:49:00 PM
 10034,Santos,Beatriz,09/17/2024,10:35:00 AM,5:56:00 PM
-10001,Garcia,Manuel III,09/18/2024,8:22:00 AM,3:29:00 PM
 10002,Lim,Antonio,09/18/2024,9:57:00 AM,5:32:00 PM
 10003,Aquino,Bianca Sofia,09/18/2024,10:56:00 AM,8:58:00 PM
 10004,Reyes,Isabella,09/18/2024,8:06:00 AM,4:14:00 PM
@@ -2651,7 +2573,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/18/2024,10:43:00 AM,6:10:00 PM
 10033,Martinez,Carlos Ian,09/18/2024,8:24:00 AM,6:11:00 PM
 10034,Santos,Beatriz,09/18/2024,9:06:00 AM,7:33:00 PM
-10001,Garcia,Manuel III,09/19/2024,10:32:00 AM,9:12:00 PM
 10002,Lim,Antonio,09/19/2024,9:57:00 AM,7:08:00 PM
 10003,Aquino,Bianca Sofia,09/19/2024,8:24:00 AM,3:50:00 PM
 10004,Reyes,Isabella,09/19/2024,9:14:00 AM,7:03:00 PM
@@ -2685,7 +2606,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/19/2024,10:05:00 AM,7:13:00 PM
 10033,Martinez,Carlos Ian,09/19/2024,10:33:00 AM,7:54:00 PM
 10034,Santos,Beatriz,09/19/2024,9:08:00 AM,6:08:00 PM
-10001,Garcia,Manuel III,09/20/2024,8:38:00 AM,7:05:00 PM
 10002,Lim,Antonio,09/20/2024,10:02:00 AM,8:55:00 PM
 10003,Aquino,Bianca Sofia,09/20/2024,8:06:00 AM,5:22:00 PM
 10004,Reyes,Isabella,09/20/2024,9:46:00 AM,5:26:00 PM
@@ -2719,7 +2639,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/20/2024,8:47:00 AM,3:50:00 PM
 10033,Martinez,Carlos Ian,09/20/2024,9:01:00 AM,6:03:00 PM
 10034,Santos,Beatriz,09/20/2024,9:43:00 AM,5:40:00 PM
-10001,Garcia,Manuel III,09/23/2024,10:51:00 AM,6:04:00 PM
 10002,Lim,Antonio,09/23/2024,10:44:00 AM,5:50:00 PM
 10003,Aquino,Bianca Sofia,09/23/2024,9:58:00 AM,6:04:00 PM
 10004,Reyes,Isabella,09/23/2024,9:12:00 AM,5:16:00 PM
@@ -2753,7 +2672,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/23/2024,8:09:00 AM,5:20:00 PM
 10033,Martinez,Carlos Ian,09/23/2024,10:26:00 AM,7:22:00 PM
 10034,Santos,Beatriz,09/23/2024,10:54:00 AM,9:33:00 PM
-10001,Garcia,Manuel III,09/24/2024,8:39:00 AM,5:13:00 PM
 10002,Lim,Antonio,09/24/2024,9:55:00 AM,8:08:00 PM
 10003,Aquino,Bianca Sofia,09/24/2024,8:44:00 AM,4:30:00 PM
 10004,Reyes,Isabella,09/24/2024,9:24:00 AM,7:41:00 PM
@@ -2787,7 +2705,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/24/2024,8:55:00 AM,6:22:00 PM
 10033,Martinez,Carlos Ian,09/24/2024,10:48:00 AM,5:55:00 PM
 10034,Santos,Beatriz,09/24/2024,8:22:00 AM,5:47:00 PM
-10001,Garcia,Manuel III,09/25/2024,9:35:00 AM,5:55:00 PM
 10002,Lim,Antonio,09/25/2024,10:12:00 AM,6:34:00 PM
 10003,Aquino,Bianca Sofia,09/25/2024,10:30:00 AM,5:48:00 PM
 10004,Reyes,Isabella,09/25/2024,10:38:00 AM,8:21:00 PM
@@ -2821,7 +2738,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/25/2024,8:40:00 AM,4:13:00 PM
 10033,Martinez,Carlos Ian,09/25/2024,10:36:00 AM,7:59:00 PM
 10034,Santos,Beatriz,09/25/2024,9:02:00 AM,5:19:00 PM
-10001,Garcia,Manuel III,09/26/2024,9:55:00 AM,7:04:00 PM
 10002,Lim,Antonio,09/26/2024,10:16:00 AM,7:30:00 PM
 10003,Aquino,Bianca Sofia,09/26/2024,9:37:00 AM,8:25:00 PM
 10004,Reyes,Isabella,09/26/2024,9:40:00 AM,7:04:00 PM
@@ -2855,7 +2771,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/26/2024,8:19:00 AM,6:14:00 PM
 10033,Martinez,Carlos Ian,09/26/2024,9:21:00 AM,6:30:00 PM
 10034,Santos,Beatriz,09/26/2024,8:48:00 AM,6:59:00 PM
-10001,Garcia,Manuel III,09/27/2024,8:00:00 AM,4:58:00 PM
 10002,Lim,Antonio,09/27/2024,8:43:00 AM,3:48:00 PM
 10003,Aquino,Bianca Sofia,09/27/2024,9:29:00 AM,5:52:00 PM
 10004,Reyes,Isabella,09/27/2024,9:29:00 AM,5:14:00 PM
@@ -2889,7 +2804,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/27/2024,9:37:00 AM,5:39:00 PM
 10033,Martinez,Carlos Ian,09/27/2024,9:22:00 AM,4:54:00 PM
 10034,Santos,Beatriz,09/27/2024,9:53:00 AM,8:30:00 PM
-10001,Garcia,Manuel III,09/30/2024,8:33:00 AM,5:21:00 PM
 10002,Lim,Antonio,09/30/2024,9:32:00 AM,4:33:00 PM
 10003,Aquino,Bianca Sofia,09/30/2024,9:30:00 AM,5:23:00 PM
 10004,Reyes,Isabella,09/30/2024,9:37:00 AM,7:11:00 PM
@@ -2923,7 +2837,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,09/30/2024,9:05:00 AM,4:18:00 PM
 10033,Martinez,Carlos Ian,09/30/2024,9:09:00 AM,7:50:00 PM
 10034,Santos,Beatriz,09/30/2024,10:43:00 AM,7:57:00 PM
-10001,Garcia,Manuel III,10/01/2024,10:06:00 AM,7:27:00 PM
 10002,Lim,Antonio,10/01/2024,9:12:00 AM,7:22:00 PM
 10003,Aquino,Bianca Sofia,10/01/2024,10:46:00 AM,7:59:00 PM
 10004,Reyes,Isabella,10/01/2024,8:58:00 AM,7:05:00 PM
@@ -2957,7 +2870,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/01/2024,10:16:00 AM,6:01:00 PM
 10033,Martinez,Carlos Ian,10/01/2024,9:29:00 AM,7:58:00 PM
 10034,Santos,Beatriz,10/01/2024,9:44:00 AM,7:08:00 PM
-10001,Garcia,Manuel III,10/02/2024,8:14:00 AM,6:13:00 PM
 10002,Lim,Antonio,10/02/2024,8:43:00 AM,6:37:00 PM
 10003,Aquino,Bianca Sofia,10/02/2024,8:48:00 AM,4:20:00 PM
 10004,Reyes,Isabella,10/02/2024,9:00:00 AM,6:10:00 PM
@@ -2991,7 +2903,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/02/2024,8:50:00 AM,6:31:00 PM
 10033,Martinez,Carlos Ian,10/02/2024,8:30:00 AM,4:03:00 PM
 10034,Santos,Beatriz,10/02/2024,9:23:00 AM,5:17:00 PM
-10001,Garcia,Manuel III,10/03/2024,8:02:00 AM,3:11:00 PM
 10002,Lim,Antonio,10/03/2024,10:57:00 AM,9:55:00 PM
 10003,Aquino,Bianca Sofia,10/03/2024,9:38:00 AM,8:30:00 PM
 10004,Reyes,Isabella,10/03/2024,10:24:00 AM,7:30:00 PM
@@ -3025,7 +2936,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/03/2024,8:55:00 AM,5:14:00 PM
 10033,Martinez,Carlos Ian,10/03/2024,9:58:00 AM,6:56:00 PM
 10034,Santos,Beatriz,10/03/2024,10:40:00 AM,7:45:00 PM
-10001,Garcia,Manuel III,10/04/2024,8:29:00 AM,5:37:00 PM
 10002,Lim,Antonio,10/04/2024,8:17:00 AM,5:17:00 PM
 10003,Aquino,Bianca Sofia,10/04/2024,9:10:00 AM,7:07:00 PM
 10004,Reyes,Isabella,10/04/2024,10:09:00 AM,7:05:00 PM
@@ -3059,7 +2969,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/04/2024,8:55:00 AM,4:49:00 PM
 10033,Martinez,Carlos Ian,10/04/2024,8:50:00 AM,4:46:00 PM
 10034,Santos,Beatriz,10/04/2024,9:39:00 AM,7:27:00 PM
-10001,Garcia,Manuel III,10/07/2024,10:18:00 AM,8:25:00 PM
 10002,Lim,Antonio,10/07/2024,9:00:00 AM,7:22:00 PM
 10003,Aquino,Bianca Sofia,10/07/2024,9:08:00 AM,5:15:00 PM
 10004,Reyes,Isabella,10/07/2024,8:39:00 AM,4:55:00 PM
@@ -3093,7 +3002,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/07/2024,8:39:00 AM,5:17:00 PM
 10033,Martinez,Carlos Ian,10/07/2024,10:28:00 AM,6:52:00 PM
 10034,Santos,Beatriz,10/07/2024,9:49:00 AM,5:23:00 PM
-10001,Garcia,Manuel III,10/08/2024,9:12:00 AM,7:45:00 PM
 10002,Lim,Antonio,10/08/2024,9:44:00 AM,7:15:00 PM
 10003,Aquino,Bianca Sofia,10/08/2024,9:03:00 AM,6:27:00 PM
 10004,Reyes,Isabella,10/08/2024,10:24:00 AM,5:29:00 PM
@@ -3127,7 +3035,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/08/2024,10:14:00 AM,6:25:00 PM
 10033,Martinez,Carlos Ian,10/08/2024,10:44:00 AM,9:31:00 PM
 10034,Santos,Beatriz,10/08/2024,9:23:00 AM,7:40:00 PM
-10001,Garcia,Manuel III,10/09/2024,8:04:00 AM,4:46:00 PM
 10002,Lim,Antonio,10/09/2024,8:52:00 AM,7:36:00 PM
 10003,Aquino,Bianca Sofia,10/09/2024,8:27:00 AM,4:34:00 PM
 10004,Reyes,Isabella,10/09/2024,9:04:00 AM,7:45:00 PM
@@ -3161,7 +3068,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/09/2024,9:38:00 AM,5:44:00 PM
 10033,Martinez,Carlos Ian,10/09/2024,10:40:00 AM,6:19:00 PM
 10034,Santos,Beatriz,10/09/2024,8:41:00 AM,6:50:00 PM
-10001,Garcia,Manuel III,10/10/2024,10:44:00 AM,7:06:00 PM
 10002,Lim,Antonio,10/10/2024,8:59:00 AM,6:32:00 PM
 10003,Aquino,Bianca Sofia,10/10/2024,10:37:00 AM,8:50:00 PM
 10004,Reyes,Isabella,10/10/2024,8:21:00 AM,3:27:00 PM
@@ -3195,7 +3101,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/10/2024,8:59:00 AM,4:31:00 PM
 10033,Martinez,Carlos Ian,10/10/2024,9:23:00 AM,5:14:00 PM
 10034,Santos,Beatriz,10/10/2024,9:12:00 AM,4:33:00 PM
-10001,Garcia,Manuel III,10/11/2024,8:57:00 AM,4:34:00 PM
 10002,Lim,Antonio,10/11/2024,9:38:00 AM,6:02:00 PM
 10003,Aquino,Bianca Sofia,10/11/2024,10:55:00 AM,8:30:00 PM
 10004,Reyes,Isabella,10/11/2024,9:47:00 AM,7:44:00 PM
@@ -3229,7 +3134,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/11/2024,10:33:00 AM,8:07:00 PM
 10033,Martinez,Carlos Ian,10/11/2024,8:29:00 AM,4:33:00 PM
 10034,Santos,Beatriz,10/11/2024,8:25:00 AM,4:51:00 PM
-10001,Garcia,Manuel III,10/14/2024,10:20:00 AM,8:42:00 PM
 10002,Lim,Antonio,10/14/2024,10:41:00 AM,7:44:00 PM
 10003,Aquino,Bianca Sofia,10/14/2024,9:00:00 AM,5:36:00 PM
 10004,Reyes,Isabella,10/14/2024,10:01:00 AM,8:59:00 PM
@@ -3263,7 +3167,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/14/2024,8:25:00 AM,4:58:00 PM
 10033,Martinez,Carlos Ian,10/14/2024,9:07:00 AM,7:36:00 PM
 10034,Santos,Beatriz,10/14/2024,9:33:00 AM,8:10:00 PM
-10001,Garcia,Manuel III,10/15/2024,10:46:00 AM,8:28:00 PM
 10002,Lim,Antonio,10/15/2024,10:21:00 AM,6:12:00 PM
 10003,Aquino,Bianca Sofia,10/15/2024,8:46:00 AM,5:53:00 PM
 10004,Reyes,Isabella,10/15/2024,8:32:00 AM,3:32:00 PM
@@ -3297,7 +3200,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/15/2024,9:31:00 AM,8:10:00 PM
 10033,Martinez,Carlos Ian,10/15/2024,8:51:00 AM,7:14:00 PM
 10034,Santos,Beatriz,10/15/2024,9:19:00 AM,6:15:00 PM
-10001,Garcia,Manuel III,10/16/2024,10:27:00 AM,7:52:00 PM
 10002,Lim,Antonio,10/16/2024,8:42:00 AM,7:16:00 PM
 10003,Aquino,Bianca Sofia,10/16/2024,10:37:00 AM,9:22:00 PM
 10004,Reyes,Isabella,10/16/2024,10:06:00 AM,8:24:00 PM
@@ -3331,7 +3233,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/16/2024,9:32:00 AM,5:35:00 PM
 10033,Martinez,Carlos Ian,10/16/2024,9:33:00 AM,6:49:00 PM
 10034,Santos,Beatriz,10/16/2024,8:33:00 AM,5:31:00 PM
-10001,Garcia,Manuel III,10/17/2024,9:10:00 AM,7:19:00 PM
 10002,Lim,Antonio,10/17/2024,8:15:00 AM,5:22:00 PM
 10003,Aquino,Bianca Sofia,10/17/2024,8:39:00 AM,4:36:00 PM
 10004,Reyes,Isabella,10/17/2024,8:03:00 AM,6:33:00 PM
@@ -3365,7 +3266,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/17/2024,8:13:00 AM,7:11:00 PM
 10033,Martinez,Carlos Ian,10/17/2024,9:47:00 AM,4:57:00 PM
 10034,Santos,Beatriz,10/17/2024,9:32:00 AM,5:07:00 PM
-10001,Garcia,Manuel III,10/18/2024,8:20:00 AM,6:57:00 PM
 10002,Lim,Antonio,10/18/2024,10:16:00 AM,6:39:00 PM
 10003,Aquino,Bianca Sofia,10/18/2024,10:38:00 AM,8:22:00 PM
 10004,Reyes,Isabella,10/18/2024,9:01:00 AM,4:31:00 PM
@@ -3399,7 +3299,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/18/2024,8:11:00 AM,5:22:00 PM
 10033,Martinez,Carlos Ian,10/18/2024,10:50:00 AM,9:39:00 PM
 10034,Santos,Beatriz,10/18/2024,9:34:00 AM,7:17:00 PM
-10001,Garcia,Manuel III,10/21/2024,10:07:00 AM,5:55:00 PM
 10002,Lim,Antonio,10/21/2024,8:20:00 AM,4:34:00 PM
 10003,Aquino,Bianca Sofia,10/21/2024,10:26:00 AM,7:33:00 PM
 10004,Reyes,Isabella,10/21/2024,9:18:00 AM,4:37:00 PM
@@ -3433,7 +3332,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/21/2024,9:16:00 AM,7:56:00 PM
 10033,Martinez,Carlos Ian,10/21/2024,10:46:00 AM,6:17:00 PM
 10034,Santos,Beatriz,10/21/2024,9:45:00 AM,6:13:00 PM
-10001,Garcia,Manuel III,10/22/2024,8:52:00 AM,4:51:00 PM
 10002,Lim,Antonio,10/22/2024,8:44:00 AM,3:57:00 PM
 10003,Aquino,Bianca Sofia,10/22/2024,9:09:00 AM,5:15:00 PM
 10004,Reyes,Isabella,10/22/2024,8:27:00 AM,3:31:00 PM
@@ -3467,7 +3365,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/22/2024,8:32:00 AM,7:18:00 PM
 10033,Martinez,Carlos Ian,10/22/2024,8:48:00 AM,6:58:00 PM
 10034,Santos,Beatriz,10/22/2024,10:04:00 AM,6:44:00 PM
-10001,Garcia,Manuel III,10/23/2024,10:20:00 AM,6:13:00 PM
 10002,Lim,Antonio,10/23/2024,10:07:00 AM,6:36:00 PM
 10003,Aquino,Bianca Sofia,10/23/2024,8:23:00 AM,5:36:00 PM
 10004,Reyes,Isabella,10/23/2024,9:03:00 AM,4:45:00 PM
@@ -3501,7 +3398,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/23/2024,9:27:00 AM,5:07:00 PM
 10033,Martinez,Carlos Ian,10/23/2024,8:13:00 AM,5:30:00 PM
 10034,Santos,Beatriz,10/23/2024,8:31:00 AM,6:33:00 PM
-10001,Garcia,Manuel III,10/24/2024,10:23:00 AM,7:25:00 PM
 10002,Lim,Antonio,10/24/2024,9:33:00 AM,7:08:00 PM
 10003,Aquino,Bianca Sofia,10/24/2024,8:13:00 AM,6:04:00 PM
 10004,Reyes,Isabella,10/24/2024,10:25:00 AM,6:53:00 PM
@@ -3535,7 +3431,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/24/2024,9:19:00 AM,4:43:00 PM
 10033,Martinez,Carlos Ian,10/24/2024,10:29:00 AM,9:05:00 PM
 10034,Santos,Beatriz,10/24/2024,8:11:00 AM,6:36:00 PM
-10001,Garcia,Manuel III,10/25/2024,10:06:00 AM,7:22:00 PM
 10002,Lim,Antonio,10/25/2024,10:21:00 AM,7:04:00 PM
 10003,Aquino,Bianca Sofia,10/25/2024,9:08:00 AM,6:43:00 PM
 10004,Reyes,Isabella,10/25/2024,10:59:00 AM,9:39:00 PM
@@ -3569,7 +3464,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/25/2024,8:24:00 AM,6:42:00 PM
 10033,Martinez,Carlos Ian,10/25/2024,10:44:00 AM,9:39:00 PM
 10034,Santos,Beatriz,10/25/2024,9:35:00 AM,7:27:00 PM
-10001,Garcia,Manuel III,10/28/2024,9:56:00 AM,8:49:00 PM
 10002,Lim,Antonio,10/28/2024,9:19:00 AM,4:25:00 PM
 10003,Aquino,Bianca Sofia,10/28/2024,10:39:00 AM,7:31:00 PM
 10004,Reyes,Isabella,10/28/2024,10:42:00 AM,7:44:00 PM
@@ -3603,7 +3497,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/28/2024,9:14:00 AM,7:21:00 PM
 10033,Martinez,Carlos Ian,10/28/2024,8:19:00 AM,5:23:00 PM
 10034,Santos,Beatriz,10/28/2024,10:27:00 AM,9:08:00 PM
-10001,Garcia,Manuel III,10/29/2024,8:51:00 AM,5:49:00 PM
 10002,Lim,Antonio,10/29/2024,8:11:00 AM,6:57:00 PM
 10003,Aquino,Bianca Sofia,10/29/2024,10:28:00 AM,6:09:00 PM
 10004,Reyes,Isabella,10/29/2024,9:50:00 AM,7:28:00 PM
@@ -3637,7 +3530,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/29/2024,9:07:00 AM,6:25:00 PM
 10033,Martinez,Carlos Ian,10/29/2024,10:06:00 AM,5:16:00 PM
 10034,Santos,Beatriz,10/29/2024,9:16:00 AM,7:46:00 PM
-10001,Garcia,Manuel III,10/30/2024,10:40:00 AM,6:54:00 PM
 10002,Lim,Antonio,10/30/2024,9:45:00 AM,7:00:00 PM
 10003,Aquino,Bianca Sofia,10/30/2024,9:16:00 AM,4:21:00 PM
 10004,Reyes,Isabella,10/30/2024,8:19:00 AM,6:26:00 PM
@@ -3671,7 +3563,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/30/2024,9:58:00 AM,8:14:00 PM
 10033,Martinez,Carlos Ian,10/30/2024,8:15:00 AM,4:06:00 PM
 10034,Santos,Beatriz,10/30/2024,10:04:00 AM,8:47:00 PM
-10001,Garcia,Manuel III,10/31/2024,8:27:00 AM,5:48:00 PM
 10002,Lim,Antonio,10/31/2024,9:44:00 AM,5:20:00 PM
 10003,Aquino,Bianca Sofia,10/31/2024,10:38:00 AM,6:36:00 PM
 10004,Reyes,Isabella,10/31/2024,8:51:00 AM,4:06:00 PM
@@ -3705,7 +3596,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,10/31/2024,10:23:00 AM,7:02:00 PM
 10033,Martinez,Carlos Ian,10/31/2024,8:16:00 AM,4:03:00 PM
 10034,Santos,Beatriz,10/31/2024,9:25:00 AM,6:46:00 PM
-10001,Garcia,Manuel III,11/01/2024,9:34:00 AM,6:30:00 PM
 10002,Lim,Antonio,11/01/2024,10:00:00 AM,8:39:00 PM
 10003,Aquino,Bianca Sofia,11/01/2024,9:28:00 AM,7:17:00 PM
 10004,Reyes,Isabella,11/01/2024,8:08:00 AM,3:29:00 PM
@@ -3739,7 +3629,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/01/2024,10:48:00 AM,9:08:00 PM
 10033,Martinez,Carlos Ian,11/01/2024,9:34:00 AM,6:58:00 PM
 10034,Santos,Beatriz,11/01/2024,9:14:00 AM,5:21:00 PM
-10001,Garcia,Manuel III,11/04/2024,8:47:00 AM,4:13:00 PM
 10002,Lim,Antonio,11/04/2024,9:50:00 AM,7:34:00 PM
 10003,Aquino,Bianca Sofia,11/04/2024,8:36:00 AM,4:12:00 PM
 10004,Reyes,Isabella,11/04/2024,8:52:00 AM,4:22:00 PM
@@ -3773,7 +3662,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/04/2024,9:04:00 AM,7:36:00 PM
 10033,Martinez,Carlos Ian,11/04/2024,10:29:00 AM,8:14:00 PM
 10034,Santos,Beatriz,11/04/2024,8:53:00 AM,5:54:00 PM
-10001,Garcia,Manuel III,11/05/2024,10:41:00 AM,8:15:00 PM
 10002,Lim,Antonio,11/05/2024,8:32:00 AM,6:29:00 PM
 10003,Aquino,Bianca Sofia,11/05/2024,10:53:00 AM,8:32:00 PM
 10004,Reyes,Isabella,11/05/2024,8:18:00 AM,3:33:00 PM
@@ -3807,7 +3695,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/05/2024,10:51:00 AM,6:49:00 PM
 10033,Martinez,Carlos Ian,11/05/2024,9:18:00 AM,7:58:00 PM
 10034,Santos,Beatriz,11/05/2024,10:54:00 AM,9:17:00 PM
-10001,Garcia,Manuel III,11/06/2024,10:59:00 AM,9:20:00 PM
 10002,Lim,Antonio,11/06/2024,9:50:00 AM,5:52:00 PM
 10003,Aquino,Bianca Sofia,11/06/2024,10:40:00 AM,8:34:00 PM
 10004,Reyes,Isabella,11/06/2024,10:12:00 AM,8:49:00 PM
@@ -3841,7 +3728,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/06/2024,8:00:00 AM,3:01:00 PM
 10033,Martinez,Carlos Ian,11/06/2024,8:15:00 AM,5:25:00 PM
 10034,Santos,Beatriz,11/06/2024,8:56:00 AM,7:18:00 PM
-10001,Garcia,Manuel III,11/07/2024,8:36:00 AM,6:33:00 PM
 10002,Lim,Antonio,11/07/2024,8:34:00 AM,7:13:00 PM
 10003,Aquino,Bianca Sofia,11/07/2024,10:54:00 AM,9:20:00 PM
 10004,Reyes,Isabella,11/07/2024,8:50:00 AM,7:46:00 PM
@@ -3875,7 +3761,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/07/2024,10:12:00 AM,7:43:00 PM
 10033,Martinez,Carlos Ian,11/07/2024,10:55:00 AM,7:42:00 PM
 10034,Santos,Beatriz,11/07/2024,9:57:00 AM,8:13:00 PM
-10001,Garcia,Manuel III,11/08/2024,9:11:00 AM,4:49:00 PM
 10002,Lim,Antonio,11/08/2024,10:26:00 AM,7:25:00 PM
 10003,Aquino,Bianca Sofia,11/08/2024,9:42:00 AM,7:48:00 PM
 10004,Reyes,Isabella,11/08/2024,9:56:00 AM,5:57:00 PM
@@ -3909,7 +3794,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/08/2024,8:35:00 AM,6:08:00 PM
 10033,Martinez,Carlos Ian,11/08/2024,8:39:00 AM,5:58:00 PM
 10034,Santos,Beatriz,11/08/2024,9:38:00 AM,7:09:00 PM
-10001,Garcia,Manuel III,11/11/2024,10:00:00 AM,5:54:00 PM
 10002,Lim,Antonio,11/11/2024,10:45:00 AM,7:52:00 PM
 10003,Aquino,Bianca Sofia,11/11/2024,10:20:00 AM,8:57:00 PM
 10004,Reyes,Isabella,11/11/2024,10:29:00 AM,6:25:00 PM
@@ -3943,7 +3827,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/11/2024,9:24:00 AM,8:21:00 PM
 10033,Martinez,Carlos Ian,11/11/2024,8:59:00 AM,4:00:00 PM
 10034,Santos,Beatriz,11/11/2024,10:56:00 AM,9:00:00 PM
-10001,Garcia,Manuel III,11/12/2024,10:01:00 AM,7:00:00 PM
 10002,Lim,Antonio,11/12/2024,8:26:00 AM,6:36:00 PM
 10003,Aquino,Bianca Sofia,11/12/2024,10:36:00 AM,8:45:00 PM
 10004,Reyes,Isabella,11/12/2024,9:50:00 AM,5:57:00 PM
@@ -3977,7 +3860,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/12/2024,9:13:00 AM,7:23:00 PM
 10033,Martinez,Carlos Ian,11/12/2024,9:10:00 AM,4:48:00 PM
 10034,Santos,Beatriz,11/12/2024,9:11:00 AM,7:38:00 PM
-10001,Garcia,Manuel III,11/13/2024,10:15:00 AM,5:54:00 PM
 10002,Lim,Antonio,11/13/2024,10:44:00 AM,6:18:00 PM
 10003,Aquino,Bianca Sofia,11/13/2024,8:18:00 AM,4:16:00 PM
 10004,Reyes,Isabella,11/13/2024,8:24:00 AM,6:06:00 PM
@@ -4011,7 +3893,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/13/2024,9:34:00 AM,5:27:00 PM
 10033,Martinez,Carlos Ian,11/13/2024,9:00:00 AM,4:21:00 PM
 10034,Santos,Beatriz,11/13/2024,9:36:00 AM,7:14:00 PM
-10001,Garcia,Manuel III,11/14/2024,9:26:00 AM,4:43:00 PM
 10002,Lim,Antonio,11/14/2024,8:34:00 AM,5:11:00 PM
 10003,Aquino,Bianca Sofia,11/14/2024,10:01:00 AM,7:30:00 PM
 10004,Reyes,Isabella,11/14/2024,8:17:00 AM,6:53:00 PM
@@ -4045,7 +3926,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/14/2024,10:03:00 AM,7:23:00 PM
 10033,Martinez,Carlos Ian,11/14/2024,10:21:00 AM,8:12:00 PM
 10034,Santos,Beatriz,11/14/2024,9:52:00 AM,7:38:00 PM
-10001,Garcia,Manuel III,11/15/2024,9:52:00 AM,5:47:00 PM
 10002,Lim,Antonio,11/15/2024,10:36:00 AM,7:08:00 PM
 10003,Aquino,Bianca Sofia,11/15/2024,8:41:00 AM,5:50:00 PM
 10004,Reyes,Isabella,11/15/2024,10:28:00 AM,9:00:00 PM
@@ -4079,7 +3959,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/15/2024,10:46:00 AM,8:34:00 PM
 10033,Martinez,Carlos Ian,11/15/2024,9:21:00 AM,5:37:00 PM
 10034,Santos,Beatriz,11/15/2024,10:13:00 AM,5:14:00 PM
-10001,Garcia,Manuel III,11/18/2024,10:50:00 AM,7:45:00 PM
 10002,Lim,Antonio,11/18/2024,8:03:00 AM,6:32:00 PM
 10003,Aquino,Bianca Sofia,11/18/2024,10:04:00 AM,8:21:00 PM
 10004,Reyes,Isabella,11/18/2024,8:23:00 AM,3:51:00 PM
@@ -4113,7 +3992,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/18/2024,9:37:00 AM,6:02:00 PM
 10033,Martinez,Carlos Ian,11/18/2024,9:29:00 AM,5:23:00 PM
 10034,Santos,Beatriz,11/18/2024,8:31:00 AM,6:56:00 PM
-10001,Garcia,Manuel III,11/19/2024,9:37:00 AM,5:07:00 PM
 10002,Lim,Antonio,11/19/2024,8:27:00 AM,3:30:00 PM
 10003,Aquino,Bianca Sofia,11/19/2024,9:38:00 AM,8:33:00 PM
 10004,Reyes,Isabella,11/19/2024,8:21:00 AM,3:29:00 PM
@@ -4147,7 +4025,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/19/2024,10:51:00 AM,8:55:00 PM
 10033,Martinez,Carlos Ian,11/19/2024,10:00:00 AM,8:25:00 PM
 10034,Santos,Beatriz,11/19/2024,8:14:00 AM,5:20:00 PM
-10001,Garcia,Manuel III,11/20/2024,8:12:00 AM,4:45:00 PM
 10002,Lim,Antonio,11/20/2024,8:08:00 AM,4:36:00 PM
 10003,Aquino,Bianca Sofia,11/20/2024,10:01:00 AM,5:37:00 PM
 10004,Reyes,Isabella,11/20/2024,9:44:00 AM,7:47:00 PM
@@ -4181,7 +4058,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/20/2024,8:41:00 AM,4:31:00 PM
 10033,Martinez,Carlos Ian,11/20/2024,10:05:00 AM,5:15:00 PM
 10034,Santos,Beatriz,11/20/2024,10:31:00 AM,5:51:00 PM
-10001,Garcia,Manuel III,11/21/2024,9:58:00 AM,7:16:00 PM
 10002,Lim,Antonio,11/21/2024,8:59:00 AM,7:30:00 PM
 10003,Aquino,Bianca Sofia,11/21/2024,8:12:00 AM,6:06:00 PM
 10004,Reyes,Isabella,11/21/2024,9:24:00 AM,5:45:00 PM
@@ -4215,7 +4091,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/21/2024,10:04:00 AM,7:48:00 PM
 10033,Martinez,Carlos Ian,11/21/2024,10:26:00 AM,8:39:00 PM
 10034,Santos,Beatriz,11/21/2024,8:13:00 AM,3:27:00 PM
-10001,Garcia,Manuel III,11/22/2024,10:00:00 AM,7:07:00 PM
 10002,Lim,Antonio,11/22/2024,8:41:00 AM,6:42:00 PM
 10003,Aquino,Bianca Sofia,11/22/2024,8:42:00 AM,6:43:00 PM
 10004,Reyes,Isabella,11/22/2024,10:19:00 AM,6:21:00 PM
@@ -4249,7 +4124,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/22/2024,9:15:00 AM,5:26:00 PM
 10033,Martinez,Carlos Ian,11/22/2024,8:33:00 AM,5:49:00 PM
 10034,Santos,Beatriz,11/22/2024,9:12:00 AM,6:18:00 PM
-10001,Garcia,Manuel III,11/25/2024,9:28:00 AM,7:51:00 PM
 10002,Lim,Antonio,11/25/2024,10:01:00 AM,6:27:00 PM
 10003,Aquino,Bianca Sofia,11/25/2024,9:40:00 AM,8:33:00 PM
 10004,Reyes,Isabella,11/25/2024,9:39:00 AM,8:04:00 PM
@@ -4283,7 +4157,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/25/2024,8:13:00 AM,5:18:00 PM
 10033,Martinez,Carlos Ian,11/25/2024,8:53:00 AM,5:37:00 PM
 10034,Santos,Beatriz,11/25/2024,9:59:00 AM,5:03:00 PM
-10001,Garcia,Manuel III,11/26/2024,8:25:00 AM,7:21:00 PM
 10002,Lim,Antonio,11/26/2024,8:42:00 AM,4:43:00 PM
 10003,Aquino,Bianca Sofia,11/26/2024,8:03:00 AM,3:52:00 PM
 10004,Reyes,Isabella,11/26/2024,9:23:00 AM,8:05:00 PM
@@ -4317,7 +4190,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/26/2024,9:06:00 AM,5:58:00 PM
 10033,Martinez,Carlos Ian,11/26/2024,8:08:00 AM,6:59:00 PM
 10034,Santos,Beatriz,11/26/2024,9:22:00 AM,7:56:00 PM
-10001,Garcia,Manuel III,11/27/2024,9:57:00 AM,8:19:00 PM
 10002,Lim,Antonio,11/27/2024,10:44:00 AM,9:24:00 PM
 10003,Aquino,Bianca Sofia,11/27/2024,10:51:00 AM,9:07:00 PM
 10004,Reyes,Isabella,11/27/2024,8:31:00 AM,6:06:00 PM
@@ -4351,7 +4223,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/27/2024,10:52:00 AM,8:24:00 PM
 10033,Martinez,Carlos Ian,11/27/2024,10:12:00 AM,5:19:00 PM
 10034,Santos,Beatriz,11/27/2024,10:44:00 AM,6:52:00 PM
-10001,Garcia,Manuel III,11/28/2024,10:18:00 AM,8:09:00 PM
 10002,Lim,Antonio,11/28/2024,10:32:00 AM,7:55:00 PM
 10003,Aquino,Bianca Sofia,11/28/2024,10:38:00 AM,6:45:00 PM
 10004,Reyes,Isabella,11/28/2024,8:55:00 AM,4:29:00 PM
@@ -4385,7 +4256,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/28/2024,10:28:00 AM,8:56:00 PM
 10033,Martinez,Carlos Ian,11/28/2024,10:05:00 AM,8:34:00 PM
 10034,Santos,Beatriz,11/28/2024,9:46:00 AM,5:10:00 PM
-10001,Garcia,Manuel III,11/29/2024,10:35:00 AM,9:12:00 PM
 10002,Lim,Antonio,11/29/2024,8:56:00 AM,6:05:00 PM
 10003,Aquino,Bianca Sofia,11/29/2024,8:28:00 AM,4:11:00 PM
 10004,Reyes,Isabella,11/29/2024,9:54:00 AM,5:53:00 PM
@@ -4419,7 +4289,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,11/29/2024,9:47:00 AM,6:30:00 PM
 10033,Martinez,Carlos Ian,11/29/2024,10:47:00 AM,9:00:00 PM
 10034,Santos,Beatriz,11/29/2024,8:56:00 AM,7:40:00 PM
-10001,Garcia,Manuel III,12/02/2024,8:45:00 AM,4:43:00 PM
 10002,Lim,Antonio,12/02/2024,9:57:00 AM,4:57:00 PM
 10003,Aquino,Bianca Sofia,12/02/2024,8:43:00 AM,5:37:00 PM
 10004,Reyes,Isabella,12/02/2024,9:20:00 AM,4:52:00 PM
@@ -4453,7 +4322,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/02/2024,9:19:00 AM,6:38:00 PM
 10033,Martinez,Carlos Ian,12/02/2024,10:52:00 AM,7:33:00 PM
 10034,Santos,Beatriz,12/02/2024,8:45:00 AM,5:43:00 PM
-10001,Garcia,Manuel III,12/03/2024,8:07:00 AM,6:51:00 PM
 10002,Lim,Antonio,12/03/2024,9:32:00 AM,5:09:00 PM
 10003,Aquino,Bianca Sofia,12/03/2024,10:06:00 AM,6:24:00 PM
 10004,Reyes,Isabella,12/03/2024,8:43:00 AM,4:03:00 PM
@@ -4487,7 +4355,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/03/2024,8:58:00 AM,4:00:00 PM
 10033,Martinez,Carlos Ian,12/03/2024,10:15:00 AM,8:39:00 PM
 10034,Santos,Beatriz,12/03/2024,9:53:00 AM,7:19:00 PM
-10001,Garcia,Manuel III,12/04/2024,10:49:00 AM,6:57:00 PM
 10002,Lim,Antonio,12/04/2024,10:29:00 AM,6:41:00 PM
 10003,Aquino,Bianca Sofia,12/04/2024,9:26:00 AM,7:12:00 PM
 10004,Reyes,Isabella,12/04/2024,10:35:00 AM,6:18:00 PM
@@ -4521,7 +4388,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/04/2024,8:50:00 AM,4:08:00 PM
 10033,Martinez,Carlos Ian,12/04/2024,9:46:00 AM,8:13:00 PM
 10034,Santos,Beatriz,12/04/2024,8:29:00 AM,7:18:00 PM
-10001,Garcia,Manuel III,12/05/2024,9:12:00 AM,4:52:00 PM
 10002,Lim,Antonio,12/05/2024,9:23:00 AM,5:17:00 PM
 10003,Aquino,Bianca Sofia,12/05/2024,8:13:00 AM,5:28:00 PM
 10004,Reyes,Isabella,12/05/2024,8:47:00 AM,3:50:00 PM
@@ -4555,7 +4421,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/05/2024,9:17:00 AM,7:03:00 PM
 10033,Martinez,Carlos Ian,12/05/2024,9:41:00 AM,8:20:00 PM
 10034,Santos,Beatriz,12/05/2024,10:26:00 AM,9:03:00 PM
-10001,Garcia,Manuel III,12/06/2024,10:37:00 AM,8:43:00 PM
 10002,Lim,Antonio,12/06/2024,9:32:00 AM,6:33:00 PM
 10003,Aquino,Bianca Sofia,12/06/2024,8:18:00 AM,4:12:00 PM
 10004,Reyes,Isabella,12/06/2024,10:18:00 AM,7:46:00 PM
@@ -4589,7 +4454,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/06/2024,10:31:00 AM,8:08:00 PM
 10033,Martinez,Carlos Ian,12/06/2024,8:51:00 AM,6:30:00 PM
 10034,Santos,Beatriz,12/06/2024,8:38:00 AM,5:39:00 PM
-10001,Garcia,Manuel III,12/09/2024,8:40:00 AM,6:16:00 PM
 10002,Lim,Antonio,12/09/2024,8:28:00 AM,6:13:00 PM
 10003,Aquino,Bianca Sofia,12/09/2024,9:22:00 AM,5:44:00 PM
 10004,Reyes,Isabella,12/09/2024,10:11:00 AM,8:09:00 PM
@@ -4623,7 +4487,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/09/2024,8:54:00 AM,4:34:00 PM
 10033,Martinez,Carlos Ian,12/09/2024,8:24:00 AM,5:39:00 PM
 10034,Santos,Beatriz,12/09/2024,10:42:00 AM,9:41:00 PM
-10001,Garcia,Manuel III,12/10/2024,9:36:00 AM,4:39:00 PM
 10002,Lim,Antonio,12/10/2024,10:31:00 AM,8:49:00 PM
 10003,Aquino,Bianca Sofia,12/10/2024,8:31:00 AM,3:36:00 PM
 10004,Reyes,Isabella,12/10/2024,8:55:00 AM,6:30:00 PM
@@ -4657,7 +4520,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/10/2024,8:04:00 AM,5:12:00 PM
 10033,Martinez,Carlos Ian,12/10/2024,9:27:00 AM,6:36:00 PM
 10034,Santos,Beatriz,12/10/2024,9:34:00 AM,7:33:00 PM
-10001,Garcia,Manuel III,12/11/2024,10:12:00 AM,5:24:00 PM
 10002,Lim,Antonio,12/11/2024,10:38:00 AM,6:50:00 PM
 10003,Aquino,Bianca Sofia,12/11/2024,8:20:00 AM,5:15:00 PM
 10004,Reyes,Isabella,12/11/2024,10:01:00 AM,8:21:00 PM
@@ -4691,7 +4553,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/11/2024,10:57:00 AM,9:47:00 PM
 10033,Martinez,Carlos Ian,12/11/2024,8:07:00 AM,3:43:00 PM
 10034,Santos,Beatriz,12/11/2024,8:45:00 AM,7:44:00 PM
-10001,Garcia,Manuel III,12/12/2024,9:07:00 AM,7:44:00 PM
 10002,Lim,Antonio,12/12/2024,10:53:00 AM,6:03:00 PM
 10003,Aquino,Bianca Sofia,12/12/2024,9:00:00 AM,6:31:00 PM
 10004,Reyes,Isabella,12/12/2024,10:01:00 AM,7:09:00 PM
@@ -4725,7 +4586,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/12/2024,9:26:00 AM,6:38:00 PM
 10033,Martinez,Carlos Ian,12/12/2024,9:42:00 AM,5:20:00 PM
 10034,Santos,Beatriz,12/12/2024,10:25:00 AM,9:22:00 PM
-10001,Garcia,Manuel III,12/13/2024,10:33:00 AM,7:51:00 PM
 10002,Lim,Antonio,12/13/2024,8:50:00 AM,6:17:00 PM
 10003,Aquino,Bianca Sofia,12/13/2024,8:14:00 AM,4:36:00 PM
 10004,Reyes,Isabella,12/13/2024,9:11:00 AM,7:15:00 PM
@@ -4759,7 +4619,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/13/2024,10:40:00 AM,7:05:00 PM
 10033,Martinez,Carlos Ian,12/13/2024,10:11:00 AM,6:36:00 PM
 10034,Santos,Beatriz,12/13/2024,8:51:00 AM,6:15:00 PM
-10001,Garcia,Manuel III,12/16/2024,9:47:00 AM,6:58:00 PM
 10002,Lim,Antonio,12/16/2024,10:15:00 AM,5:32:00 PM
 10003,Aquino,Bianca Sofia,12/16/2024,10:18:00 AM,6:01:00 PM
 10004,Reyes,Isabella,12/16/2024,10:57:00 AM,9:02:00 PM
@@ -4793,7 +4652,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/16/2024,8:10:00 AM,5:22:00 PM
 10033,Martinez,Carlos Ian,12/16/2024,8:35:00 AM,6:10:00 PM
 10034,Santos,Beatriz,12/16/2024,8:11:00 AM,4:05:00 PM
-10001,Garcia,Manuel III,12/17/2024,8:15:00 AM,4:11:00 PM
 10002,Lim,Antonio,12/17/2024,10:49:00 AM,9:27:00 PM
 10003,Aquino,Bianca Sofia,12/17/2024,8:15:00 AM,5:27:00 PM
 10004,Reyes,Isabella,12/17/2024,10:12:00 AM,8:16:00 PM
@@ -4827,7 +4685,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/17/2024,9:08:00 AM,4:10:00 PM
 10033,Martinez,Carlos Ian,12/17/2024,9:40:00 AM,8:11:00 PM
 10034,Santos,Beatriz,12/17/2024,10:57:00 AM,6:24:00 PM
-10001,Garcia,Manuel III,12/18/2024,8:03:00 AM,6:35:00 PM
 10002,Lim,Antonio,12/18/2024,10:50:00 AM,6:35:00 PM
 10003,Aquino,Bianca Sofia,12/18/2024,9:44:00 AM,6:32:00 PM
 10004,Reyes,Isabella,12/18/2024,9:59:00 AM,8:51:00 PM
@@ -4861,7 +4718,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/18/2024,10:20:00 AM,5:44:00 PM
 10033,Martinez,Carlos Ian,12/18/2024,9:13:00 AM,6:49:00 PM
 10034,Santos,Beatriz,12/18/2024,10:28:00 AM,7:06:00 PM
-10001,Garcia,Manuel III,12/19/2024,8:12:00 AM,3:22:00 PM
 10002,Lim,Antonio,12/19/2024,8:31:00 AM,7:04:00 PM
 10003,Aquino,Bianca Sofia,12/19/2024,10:26:00 AM,7:03:00 PM
 10004,Reyes,Isabella,12/19/2024,8:32:00 AM,5:41:00 PM
@@ -4895,7 +4751,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/19/2024,8:32:00 AM,3:41:00 PM
 10033,Martinez,Carlos Ian,12/19/2024,9:02:00 AM,7:22:00 PM
 10034,Santos,Beatriz,12/19/2024,9:05:00 AM,4:32:00 PM
-10001,Garcia,Manuel III,12/20/2024,9:29:00 AM,8:10:00 PM
 10002,Lim,Antonio,12/20/2024,9:45:00 AM,6:19:00 PM
 10003,Aquino,Bianca Sofia,12/20/2024,9:03:00 AM,6:51:00 PM
 10004,Reyes,Isabella,12/20/2024,9:44:00 AM,8:11:00 PM
@@ -4929,7 +4784,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/20/2024,10:55:00 AM,9:49:00 PM
 10033,Martinez,Carlos Ian,12/20/2024,10:13:00 AM,9:12:00 PM
 10034,Santos,Beatriz,12/20/2024,9:08:00 AM,7:39:00 PM
-10001,Garcia,Manuel III,12/23/2024,9:42:00 AM,6:39:00 PM
 10002,Lim,Antonio,12/23/2024,8:20:00 AM,7:02:00 PM
 10003,Aquino,Bianca Sofia,12/23/2024,9:14:00 AM,5:28:00 PM
 10004,Reyes,Isabella,12/23/2024,10:47:00 AM,9:44:00 PM
@@ -4963,7 +4817,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/23/2024,10:27:00 AM,5:47:00 PM
 10033,Martinez,Carlos Ian,12/23/2024,8:07:00 AM,4:44:00 PM
 10034,Santos,Beatriz,12/23/2024,10:14:00 AM,5:59:00 PM
-10001,Garcia,Manuel III,12/24/2024,8:03:00 AM,3:54:00 PM
 10002,Lim,Antonio,12/24/2024,10:52:00 AM,6:12:00 PM
 10003,Aquino,Bianca Sofia,12/24/2024,9:00:00 AM,4:37:00 PM
 10004,Reyes,Isabella,12/24/2024,9:43:00 AM,6:23:00 PM
@@ -4997,7 +4850,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/24/2024,10:36:00 AM,8:23:00 PM
 10033,Martinez,Carlos Ian,12/24/2024,9:32:00 AM,5:07:00 PM
 10034,Santos,Beatriz,12/24/2024,9:50:00 AM,8:45:00 PM
-10001,Garcia,Manuel III,12/25/2024,9:52:00 AM,8:38:00 PM
 10002,Lim,Antonio,12/25/2024,10:58:00 AM,9:30:00 PM
 10003,Aquino,Bianca Sofia,12/25/2024,9:28:00 AM,6:02:00 PM
 10004,Reyes,Isabella,12/25/2024,10:54:00 AM,5:58:00 PM
@@ -5031,7 +4883,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/25/2024,8:14:00 AM,3:27:00 PM
 10033,Martinez,Carlos Ian,12/25/2024,9:58:00 AM,6:56:00 PM
 10034,Santos,Beatriz,12/25/2024,9:08:00 AM,6:52:00 PM
-10001,Garcia,Manuel III,12/26/2024,8:29:00 AM,6:52:00 PM
 10002,Lim,Antonio,12/26/2024,9:43:00 AM,6:16:00 PM
 10003,Aquino,Bianca Sofia,12/26/2024,8:35:00 AM,6:45:00 PM
 10004,Reyes,Isabella,12/26/2024,8:42:00 AM,7:12:00 PM
@@ -5065,7 +4916,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/26/2024,9:33:00 AM,5:52:00 PM
 10033,Martinez,Carlos Ian,12/26/2024,9:03:00 AM,5:49:00 PM
 10034,Santos,Beatriz,12/26/2024,10:42:00 AM,8:14:00 PM
-10001,Garcia,Manuel III,12/27/2024,10:14:00 AM,7:00:00 PM
 10002,Lim,Antonio,12/27/2024,8:47:00 AM,3:58:00 PM
 10003,Aquino,Bianca Sofia,12/27/2024,10:30:00 AM,5:43:00 PM
 10004,Reyes,Isabella,12/27/2024,8:11:00 AM,6:38:00 PM
@@ -5099,7 +4949,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/27/2024,8:09:00 AM,6:56:00 PM
 10033,Martinez,Carlos Ian,12/27/2024,8:28:00 AM,4:02:00 PM
 10034,Santos,Beatriz,12/27/2024,9:13:00 AM,6:09:00 PM
-10001,Garcia,Manuel III,12/30/2024,9:29:00 AM,6:21:00 PM
 10002,Lim,Antonio,12/30/2024,9:01:00 AM,4:37:00 PM
 10003,Aquino,Bianca Sofia,12/30/2024,10:46:00 AM,9:43:00 PM
 10004,Reyes,Isabella,12/30/2024,9:21:00 AM,7:38:00 PM
@@ -5133,7 +4982,6 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/30/2024,9:19:00 AM,4:24:00 PM
 10033,Martinez,Carlos Ian,12/30/2024,8:24:00 AM,6:48:00 PM
 10034,Santos,Beatriz,12/30/2024,8:21:00 AM,5:06:00 PM
-10001,Garcia,Manuel III,12/31/2024,9:27:00 AM,6:30:00 PM
 10002,Lim,Antonio,12/31/2024,8:37:00 AM,3:39:00 PM
 10003,Aquino,Bianca Sofia,12/31/2024,8:53:00 AM,4:37:00 PM
 10004,Reyes,Isabella,12/31/2024,10:44:00 AM,6:29:00 PM
@@ -5167,3 +5015,156 @@ Employee #,Last Name,First Name,Date,Log In,Log Out
 10032,Castro,John Rafael,12/31/2024,9:07:00 AM,7:30:00 PM
 10033,Martinez,Carlos Ian,12/31/2024,9:00:00 AM,7:00:00 PM
 10034,Santos,Beatriz,12/31/2024,8:05:00 AM,3:48:00 PM
+10001,Garcia,Manuel III,6/3/2024,8:59:00 AM,6:31:00 PM
+10001,Garcia,Manuel III,6/4/2024,9:47:00 AM,7:07:00 PM
+10001,Garcia,Manuel III,6/5/2024,10:57:00 AM,9:32:00 PM
+10001,Garcia,Manuel III,6/6/2024,9:32:00 AM,7:15:00 PM
+10001,Garcia,Manuel III,6/7/2024,9:46:00 AM,7:15:00 PM
+10001,Garcia,Manuel III,6/10/2024,9:10:00 AM,6:36:00 PM
+10001,Garcia,Manuel III,6/11/2024,10:30:00 AM,8:53:00 PM
+10001,Garcia,Manuel III,6/12/2024,8:37:00 AM,6:25:00 PM
+10001,Garcia,Manuel III,6/13/2024,8:24:00 AM,7:20:00 PM
+10001,Garcia,Manuel III,6/14/2024,9:28:00 AM,7:24:00 PM
+10001,Garcia,Manuel III,6/17/2024,9:07:00 AM,7:10:00 PM
+10001,Garcia,Manuel III,6/18/2024,8:32:00 AM,6:35:00 PM
+10001,Garcia,Manuel III,6/19/2024,9:05:00 AM,6:30:00 PM
+10001,Garcia,Manuel III,6/20/2024,9:07:00 AM,8:01:00 PM
+10001,Garcia,Manuel III,6/21/2024,8:19:00 AM,3:24:00 PM
+10001,Garcia,Manuel III,6/24/2024,10:26:00 AM,7:43:00 PM
+10001,Garcia,Manuel III,6/25/2024,9:52:00 AM,5:12:00 PM
+10001,Garcia,Manuel III,6/26/2024,8:23:00 AM,6:51:00 PM
+10001,Garcia,Manuel III,6/27/2024,8:46:00 AM,4:09:00 PM
+10001,Garcia,Manuel III,6/28/2024,9:07:00 AM,6:28:00 PM
+10001,Garcia,Manuel III,7/1/2024,9:15:00 AM,7:17:00 PM
+10001,Garcia,Manuel III,7/2/2024,9:33:00 AM,7:06:00 PM
+10001,Garcia,Manuel III,7/3/2024,10:43:00 AM,7:29:00 PM
+10001,Garcia,Manuel III,7/4/2024,8:15:00 AM,6:26:00 PM
+10001,Garcia,Manuel III,7/5/2024,8:00:00 AM,4:29:00 PM
+10001,Garcia,Manuel III,7/8/2024,8:32:00 AM,4:59:00 PM
+10001,Garcia,Manuel III,7/9/2024,9:46:00 AM,6:46:00 PM
+10001,Garcia,Manuel III,7/10/2024,9:02:00 AM,5:37:00 PM
+10001,Garcia,Manuel III,7/11/2024,10:57:00 AM,9:16:00 PM
+10001,Garcia,Manuel III,7/12/2024,8:48:00 AM,5:32:00 PM
+10001,Garcia,Manuel III,7/15/2024,10:02:00 AM,8:52:00 PM
+10001,Garcia,Manuel III,7/16/2024,9:52:00 AM,7:24:00 PM
+10001,Garcia,Manuel III,7/17/2024,10:37:00 AM,7:25:00 PM
+10001,Garcia,Manuel III,7/18/2024,10:10:00 AM,6:44:00 PM
+10001,Garcia,Manuel III,7/19/2024,10:41:00 AM,6:38:00 PM
+10001,Garcia,Manuel III,7/22/2024,8:28:00 AM,6:15:00 PM
+10001,Garcia,Manuel III,7/23/2024,10:54:00 AM,8:03:00 PM
+10001,Garcia,Manuel III,7/24/2024,8:46:00 AM,5:42:00 PM
+10001,Garcia,Manuel III,7/25/2024,10:25:00 AM,9:00:00 PM
+10001,Garcia,Manuel III,7/26/2024,10:52:00 AM,6:25:00 PM
+10001,Garcia,Manuel III,7/29/2024,8:11:00 AM,6:48:00 PM
+10001,Garcia,Manuel III,7/30/2024,8:04:00 AM,5:00:00 PM
+10001,Garcia,Manuel III,7/31/2024,9:52:00 AM,6:05:00 PM
+10001,Garcia,Manuel III,8/1/2024,10:08:00 AM,6:21:00 PM
+10001,Garcia,Manuel III,8/2/2024,10:30:00 AM,8:48:00 PM
+10001,Garcia,Manuel III,8/5/2024,8:01:00 AM,6:19:00 PM
+10001,Garcia,Manuel III,8/6/2024,10:01:00 AM,5:37:00 PM
+10001,Garcia,Manuel III,8/7/2024,9:21:00 AM,5:17:00 PM
+10001,Garcia,Manuel III,8/8/2024,9:15:00 AM,4:54:00 PM
+10001,Garcia,Manuel III,8/9/2024,9:35:00 AM,5:16:00 PM
+10001,Garcia,Manuel III,8/12/2024,9:56:00 AM,6:02:00 PM
+10001,Garcia,Manuel III,8/13/2024,8:34:00 AM,7:00:00 PM
+10001,Garcia,Manuel III,8/14/2024,9:59:00 AM,7:51:00 PM
+10001,Garcia,Manuel III,8/15/2024,9:41:00 AM,5:24:00 PM
+10001,Garcia,Manuel III,8/16/2024,9:46:00 AM,7:13:00 PM
+10001,Garcia,Manuel III,8/19/2024,10:46:00 AM,6:08:00 PM
+10001,Garcia,Manuel III,8/20/2024,8:15:00 AM,4:12:00 PM
+10001,Garcia,Manuel III,8/21/2024,8:56:00 AM,4:56:00 PM
+10001,Garcia,Manuel III,8/22/2024,9:33:00 AM,7:48:00 PM
+10001,Garcia,Manuel III,8/23/2024,8:25:00 AM,4:27:00 PM
+10001,Garcia,Manuel III,8/26/2024,10:12:00 AM,8:48:00 PM
+10001,Garcia,Manuel III,8/27/2024,9:08:00 AM,7:12:00 PM
+10001,Garcia,Manuel III,8/28/2024,10:20:00 AM,6:35:00 PM
+10001,Garcia,Manuel III,8/29/2024,8:07:00 AM,6:00:00 PM
+10001,Garcia,Manuel III,8/30/2024,8:45:00 AM,6:35:00 PM
+10001,Garcia,Manuel III,9/2/2024,10:31:00 AM,8:13:00 PM
+10001,Garcia,Manuel III,9/3/2024,10:49:00 AM,7:10:00 PM
+10001,Garcia,Manuel III,9/4/2024,9:53:00 AM,6:13:00 PM
+10001,Garcia,Manuel III,9/5/2024,8:07:00 AM,5:24:00 PM
+10001,Garcia,Manuel III,9/6/2024,8:04:00 AM,6:25:00 PM
+10001,Garcia,Manuel III,9/9/2024,10:33:00 AM,5:50:00 PM
+10001,Garcia,Manuel III,9/10/2024,10:51:00 AM,8:42:00 PM
+10001,Garcia,Manuel III,9/11/2024,9:40:00 AM,6:52:00 PM
+10001,Garcia,Manuel III,9/12/2024,9:56:00 AM,5:02:00 PM
+10001,Garcia,Manuel III,9/13/2024,8:25:00 AM,5:20:00 PM
+10001,Garcia,Manuel III,9/16/2024,8:25:00 AM,5:02:00 PM
+10001,Garcia,Manuel III,9/17/2024,8:17:00 AM,4:22:00 PM
+10001,Garcia,Manuel III,9/18/2024,8:22:00 AM,3:29:00 PM
+10001,Garcia,Manuel III,9/19/2024,10:32:00 AM,9:12:00 PM
+10001,Garcia,Manuel III,9/20/2024,8:38:00 AM,7:05:00 PM
+10001,Garcia,Manuel III,9/23/2024,10:51:00 AM,6:04:00 PM
+10001,Garcia,Manuel III,9/24/2024,8:39:00 AM,5:13:00 PM
+10001,Garcia,Manuel III,9/25/2024,9:35:00 AM,5:55:00 PM
+10001,Garcia,Manuel III,9/26/2024,9:55:00 AM,7:04:00 PM
+10001,Garcia,Manuel III,9/27/2024,8:00:00 AM,4:58:00 PM
+10001,Garcia,Manuel III,9/30/2024,8:33:00 AM,5:21:00 PM
+10001,Garcia,Manuel III,10/1/2024,10:06:00 AM,7:27:00 PM
+10001,Garcia,Manuel III,10/2/2024,8:14:00 AM,6:13:00 PM
+10001,Garcia,Manuel III,10/3/2024,8:02:00 AM,3:11:00 PM
+10001,Garcia,Manuel III,10/4/2024,8:29:00 AM,5:37:00 PM
+10001,Garcia,Manuel III,10/7/2024,10:18:00 AM,8:25:00 PM
+10001,Garcia,Manuel III,10/8/2024,9:12:00 AM,7:45:00 PM
+10001,Garcia,Manuel III,10/9/2024,8:04:00 AM,4:46:00 PM
+10001,Garcia,Manuel III,10/10/2024,10:44:00 AM,7:06:00 PM
+10001,Garcia,Manuel III,10/11/2024,8:57:00 AM,4:34:00 PM
+10001,Garcia,Manuel III,10/14/2024,10:20:00 AM,8:42:00 PM
+10001,Garcia,Manuel III,10/15/2024,10:46:00 AM,8:28:00 PM
+10001,Garcia,Manuel III,10/16/2024,10:27:00 AM,7:52:00 PM
+10001,Garcia,Manuel III,10/17/2024,9:10:00 AM,7:19:00 PM
+10001,Garcia,Manuel III,10/18/2024,8:20:00 AM,6:57:00 PM
+10001,Garcia,Manuel III,10/21/2024,10:07:00 AM,5:55:00 PM
+10001,Garcia,Manuel III,10/22/2024,8:52:00 AM,4:51:00 PM
+10001,Garcia,Manuel III,10/23/2024,10:20:00 AM,6:13:00 PM
+10001,Garcia,Manuel III,10/24/2024,10:23:00 AM,7:25:00 PM
+10001,Garcia,Manuel III,10/25/2024,10:06:00 AM,7:22:00 PM
+10001,Garcia,Manuel III,10/28/2024,9:56:00 AM,8:49:00 PM
+10001,Garcia,Manuel III,10/29/2024,8:51:00 AM,5:49:00 PM
+10001,Garcia,Manuel III,10/30/2024,10:40:00 AM,6:54:00 PM
+10001,Garcia,Manuel III,10/31/2024,8:27:00 AM,5:48:00 PM
+10001,Garcia,Manuel III,11/1/2024,9:34:00 AM,6:30:00 PM
+10001,Garcia,Manuel III,11/4/2024,8:47:00 AM,4:13:00 PM
+10001,Garcia,Manuel III,11/5/2024,10:41:00 AM,8:15:00 PM
+10001,Garcia,Manuel III,11/6/2024,10:59:00 AM,9:20:00 PM
+10001,Garcia,Manuel III,11/7/2024,8:36:00 AM,6:33:00 PM
+10001,Garcia,Manuel III,11/8/2024,9:11:00 AM,4:49:00 PM
+10001,Garcia,Manuel III,11/11/2024,10:00:00 AM,5:54:00 PM
+10001,Garcia,Manuel III,11/12/2024,10:01:00 AM,7:00:00 PM
+10001,Garcia,Manuel III,11/13/2024,10:15:00 AM,5:54:00 PM
+10001,Garcia,Manuel III,11/14/2024,9:26:00 AM,4:43:00 PM
+10001,Garcia,Manuel III,11/15/2024,9:52:00 AM,5:47:00 PM
+10001,Garcia,Manuel III,11/18/2024,10:50:00 AM,7:45:00 PM
+10001,Garcia,Manuel III,11/19/2024,9:37:00 AM,5:07:00 PM
+10001,Garcia,Manuel III,11/20/2024,8:12:00 AM,4:45:00 PM
+10001,Garcia,Manuel III,11/21/2024,9:58:00 AM,7:16:00 PM
+10001,Garcia,Manuel III,11/22/2024,10:00:00 AM,7:07:00 PM
+10001,Garcia,Manuel III,11/25/2024,9:28:00 AM,7:51:00 PM
+10001,Garcia,Manuel III,11/26/2024,8:25:00 AM,7:21:00 PM
+10001,Garcia,Manuel III,11/27/2024,9:57:00 AM,8:19:00 PM
+10001,Garcia,Manuel III,11/28/2024,10:18:00 AM,8:09:00 PM
+10001,Garcia,Manuel III,11/29/2024,10:35:00 AM,9:12:00 PM
+10001,Garcia,Manuel III,12/2/2024,8:45:00 AM,4:43:00 PM
+10001,Garcia,Manuel III,12/3/2024,8:07:00 AM,6:51:00 PM
+10001,Garcia,Manuel III,12/4/2024,10:49:00 AM,6:57:00 PM
+10001,Garcia,Manuel III,12/5/2024,9:12:00 AM,4:52:00 PM
+10001,Garcia,Manuel III,12/6/2024,10:37:00 AM,8:43:00 PM
+10001,Garcia,Manuel III,12/9/2024,8:40:00 AM,6:16:00 PM
+10001,Garcia,Manuel III,12/10/2024,9:36:00 AM,4:39:00 PM
+10001,Garcia,Manuel III,12/11/2024,10:12:00 AM,5:24:00 PM
+10001,Garcia,Manuel III,12/12/2024,9:07:00 AM,7:44:00 PM
+10001,Garcia,Manuel III,12/13/2024,10:33:00 AM,7:51:00 PM
+10001,Garcia,Manuel III,12/16/2024,9:47:00 AM,6:58:00 PM
+10001,Garcia,Manuel III,12/17/2024,8:15:00 AM,4:11:00 PM
+10001,Garcia,Manuel III,12/18/2024,8:03:00 AM,6:35:00 PM
+10001,Garcia,Manuel III,12/19/2024,8:12:00 AM,3:22:00 PM
+10001,Garcia,Manuel III,12/20/2024,9:29:00 AM,8:10:00 PM
+10001,Garcia,Manuel III,12/23/2024,9:42:00 AM,6:39:00 PM
+10001,Garcia,Manuel III,12/24/2024,8:03:00 AM,3:54:00 PM
+10001,Garcia,Manuel III,12/25/2024,9:52:00 AM,8:38:00 PM
+10001,Garcia,Manuel III,12/26/2024,8:29:00 AM,6:52:00 PM
+10001,Garcia,Manuel III,12/27/2024,10:14:00 AM,7:00:00 PM
+10001,Garcia,Manuel III,12/30/2024,9:29:00 AM,6:21:00 PM
+10001,Garcia,Manuel III,12/31/2024,9:27:00 AM,6:30:00 PM
+10001,Garcia,Manuel III,3/23/2025,10:10:07 PM,10:10:13 PM

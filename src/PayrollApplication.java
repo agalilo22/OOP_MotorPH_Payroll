@@ -595,12 +595,24 @@ class Report {
 //\__/_/_/ /_/ /_/\___/   \__,_/_/ /_/\__,_/   \__,_/\__/\__/\___/_/ /_/\__,_/\__,_/\___/\___/
 //
 class TimeAndAttendance {
+    private TimeAndAttendanceRecords records;
+
+    public TimeAndAttendance(TimeAndAttendanceRecords records) {
+        this.records = records;
+    }
+
     public void clockIn(Employee employee) {
-        System.out.println("Clocking in employee ID: " + employee.getUsername());
+        LocalDate today = LocalDate.now();
+        LocalTime now = LocalTime.now();
+        records.recordClockIn(employee.getEmployeeId(), employee.getLastName(), employee.getFirstName(), today, now);
+        System.out.println("Clocked in employee ID: " + employee.getEmployeeId() + " at " + now);
     }
 
     public void clockOut(Employee employee) {
-        System.out.println("Clocking out employee ID: " + employee.getUsername());
+        LocalDate today = LocalDate.now();
+        LocalTime now = LocalTime.now();
+        records.recordClockOut(employee.getEmployeeId(), today, now);
+        System.out.println("Clocked out employee ID: " + employee.getEmployeeId() + " at " + now);
     }
 }
 
@@ -613,7 +625,40 @@ class TimeAndAttendanceRecords {
         loadFromCSV();
     }
 
-    public void loadFromCSV() {
+    public void recordClockIn(int employeeId, String lastName, String firstName, LocalDate date, LocalTime logIn) {
+        List<TimeRecord> records = attendanceData.getOrDefault(employeeId, new ArrayList<>());
+        // Check if there's an existing record for today without a log out
+        TimeRecord existingRecord = records.stream()
+                .filter(r -> r.date.equals(date) && r.logOut == null)
+                .findFirst()
+                .orElse(null);
+        if (existingRecord == null) {
+            TimeRecord newRecord = new TimeRecord(date, logIn, null);
+            records.add(newRecord);
+            attendanceData.put(employeeId, records);
+            saveToCSV(employeeId, lastName, firstName, newRecord);
+        } else {
+            System.out.println("Employee " + employeeId + " has already clocked in today at " + existingRecord.logIn);
+        }
+    }
+
+    public void recordClockOut(int employeeId, LocalDate date, LocalTime logOut) {
+        List<TimeRecord> records = attendanceData.getOrDefault(employeeId, new ArrayList<>());
+        // Find today's record with a log in but no log out
+        TimeRecord recordToUpdate = records.stream()
+                .filter(r -> r.date.equals(date) && r.logOut == null)
+                .findFirst()
+                .orElse(null);
+        if (recordToUpdate != null) {
+            recordToUpdate.logOut = logOut;
+            attendanceData.put(employeeId, records);
+            saveToCSV(employeeId); // Update the CSV with the latest data
+        } else {
+            System.out.println("No clock-in record found for employee " + employeeId + " on " + date);
+        }
+    }
+
+    private void loadFromCSV() {
         try (Scanner scanner = new Scanner(new File(ATTENDANCE_CSV))) {
             if (scanner.hasNextLine()) {
                 scanner.nextLine(); // Skip header
@@ -621,35 +666,87 @@ class TimeAndAttendanceRecords {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] parts = line.split(",", -1); // Keep empty fields
-
-                if (parts.length >= 6) { // Ensure all columns are present
+                if (parts.length == 6) {
                     try {
                         int employeeId = Integer.parseInt(parts[0].trim());
-                        String dateStr = parts[3].trim(); // Date is the 4th column
-                        String logInStr = parts[4].trim(); // Log In is the 5th column
-                        String logOutStr = parts[5].trim(); // Log Out is the 6th column
+                        String dateStr = parts[3].trim();
+                        String logInStr = parts[4].trim();
+                        String logOutStr = parts[5].trim();
 
                         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("M/d/yyyy");
                         DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("h:mm:ss a");
 
-                        // Parse the date and times
                         LocalDate date = LocalDate.parse(dateStr, dateFormatter);
-                        LocalTime logIn = LocalTime.parse(logInStr, timeFormatter);
-                        LocalTime logOut = LocalTime.parse(logOutStr, timeFormatter);
+                        LocalTime logIn = logInStr.isEmpty() ? null : LocalTime.parse(logInStr, timeFormatter);
+                        LocalTime logOut = logOutStr.isEmpty() ? null : LocalTime.parse(logOutStr, timeFormatter);
 
-                        // Add the record to the employee's attendance
                         List<TimeRecord> records = attendanceData.getOrDefault(employeeId, new ArrayList<>());
                         records.add(new TimeRecord(date, logIn, logOut));
                         attendanceData.put(employeeId, records);
-                    } catch (NumberFormatException | java.time.format.DateTimeParseException e) {
+                    } catch (NumberFormatException | DateTimeParseException e) {
                         System.err.println("Error parsing attendance data: " + line);
                     }
                 } else {
-                    System.err.println("Invalid line in CSV (too few fields): " + line);
+                    System.err.println("Invalid line in CSV: " + line);
                 }
             }
         } catch (FileNotFoundException e) {
-            System.out.println("Attendance CSV not found.");
+            System.out.println("Attendance CSV not found. Creating a new one.");
+        }
+    }
+
+    private void saveToCSV(int employeeId, String lastName, String firstName, TimeRecord newRecord) {
+        List<String> lines = new ArrayList<>();
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("M/d/yyyy");
+        DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("h:mm:ss a");
+
+        // Read existing lines except for the new record's employee
+        try (Scanner scanner = new Scanner(new File(ATTENDANCE_CSV))) {
+            if (scanner.hasNextLine()) {
+                lines.add(scanner.nextLine()); // Keep header
+            }
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                String[] parts = line.split(",", -1);
+                if (parts.length > 0 && !parts[0].trim().equals(String.valueOf(employeeId))) {
+                    lines.add(line);
+                }
+            }
+        } catch (FileNotFoundException e) {
+            lines.add("Employee #,Last Name,First Name,Date,Log In,Log Out"); // Add header if file doesn't exist
+        }
+
+        // Add all records for this employee
+        List<TimeRecord> records = attendanceData.get(employeeId);
+        if (records != null) {
+            for (TimeRecord record : records) {
+                String logInStr = record.logIn != null ? record.logIn.format(timeFormatter) : "";
+                String logOutStr = record.logOut != null ? record.logOut.format(timeFormatter) : "";
+                lines.add(String.join(",",
+                        String.valueOf(employeeId),
+                        lastName,
+                        firstName,
+                        record.date.format(dateFormatter),
+                        logInStr,
+                        logOutStr));
+            }
+        }
+
+        // Write back to CSV
+        try (PrintWriter writer = new PrintWriter(new File(ATTENDANCE_CSV))) {
+            for (String line : lines) {
+                writer.println(line);
+            }
+        } catch (FileNotFoundException e) {
+            System.err.println("Error saving to attendance CSV: " + e.getMessage());
+        }
+    }
+
+    private void saveToCSV(int employeeId) {
+        // Overloaded method to update CSV for an existing employee without needing name parameters
+        Employee employee = new EmployeeRecords().viewEmployee(employeeId); // Temporary fetch to get names
+        if (employee != null) {
+            saveToCSV(employeeId, employee.getLastName(), employee.getFirstName(), null);
         }
     }
 
@@ -657,7 +754,6 @@ class TimeAndAttendanceRecords {
         return attendanceData;
     }
 }
-
 
 class TimeRecord {
     LocalDate date; // Use LocalDate for the date
@@ -903,12 +999,11 @@ class PayrollGUI {
         payrollSetup = new PayrollSetup();
         employeeRecords = new EmployeeRecords();
         leaveManagement = new LeaveManagement();
-        timeAndAttendance = new TimeAndAttendance();
         attendanceRecords = new TimeAndAttendanceRecords();
+        timeAndAttendance = new TimeAndAttendance(attendanceRecords); // Pass records to constructor
         payrollRecords = new PayrollRecords();
         loggedInEmployee = null;
         failedLoginAttempts = new HashMap<>();
-
     }
 
   // login pane
@@ -2229,16 +2324,15 @@ class PayrollGUI {
         requestLeaveButton.addActionListener(e -> createRequestLeaveDialog(employeeFrame));
 
         // Clock In/Out Buttons
+        // Clock In/Out Buttons
         clockInButton.addActionListener(e -> {
             timeAndAttendance.clockIn(loggedInEmployee);
-            attendanceRecords.loadFromCSV();
-            JOptionPane.showMessageDialog(employeeFrame, "Clocked in successfully.");
+            JOptionPane.showMessageDialog(employeeFrame, "Clocked in successfully at " + LocalTime.now().format(DateTimeFormatter.ofPattern("h:mm:ss a")));
         });
 
         clockOutButton.addActionListener(e -> {
             timeAndAttendance.clockOut(loggedInEmployee);
-            attendanceRecords.loadFromCSV();
-            JOptionPane.showMessageDialog(employeeFrame, "Clocked out successfully.");
+            JOptionPane.showMessageDialog(employeeFrame, "Clocked out successfully at " + LocalTime.now().format(DateTimeFormatter.ofPattern("h:mm:ss a")));
         });
 
         employeeFrame.setVisible(true);
