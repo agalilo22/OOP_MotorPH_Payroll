@@ -498,47 +498,88 @@ class Report {
         this.payrollRecords = payrollRecords;
     }
 
-    // Updated: Generate payroll report with date-only range filter
+    // Updated: Generate payroll report with date-only range filter, one report per day
     public String generatePayrollReport(LocalDate startDate, LocalDate endDate) {
         List<PayrollGUI.PayrollData> allPayroll = payrollRecords.getAllPayrollData();
         if (allPayroll.isEmpty()) return "No payroll data available.";
 
-        // Filter payroll data by date range if provided
-        List<PayrollGUI.PayrollData> filteredPayroll = (startDate == null || endDate == null)
-                ? allPayroll
-                : allPayroll.stream()
-                .filter(data -> {
-                    LocalDate runDate = data.getRunDate().toLocalDate();
-                    return !runDate.isBefore(startDate) && !runDate.isAfter(endDate);
-                })
-                .collect(Collectors.toList());
+        // Group payroll data by date only (ignoring time)
+        Map<LocalDate, List<PayrollGUI.PayrollData>> payrollByDate = new TreeMap<>();
+        for (PayrollGUI.PayrollData data : allPayroll) {
+            LocalDate payrollDate = data.getRunDate().toLocalDate();
+            if (startDate != null && endDate != null &&
+                    (payrollDate.isBefore(startDate) || payrollDate.isAfter(endDate))) {
+                continue; // Skip if outside date range
+            }
+            payrollByDate.computeIfAbsent(payrollDate, k -> new ArrayList<>()).add(data);
+        }
 
-        if (filteredPayroll.isEmpty()) return "No payroll data found for the specified date range.";
+        if (payrollByDate.isEmpty()) {
+            return "No payroll data found for the specified date range.";
+        }
 
-        StringBuilder report = new StringBuilder("<html><body><h1>Payroll Report" +
-                (startDate != null && endDate != null ? " from " + startDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) +
-                        " to " + endDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) : "") + "</h1>");
-        double totalPayroll = 0;
-        LocalDateTime currentRunDate = null;
+        StringBuilder report = new StringBuilder("<html><body>");
+        report.append("<h1>Payroll Report")
+                .append(startDate != null && endDate != null
+                        ? " from " + startDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) +
+                        " to " + endDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
+                        : "")
+                .append("</h1>");
 
-        for (PayrollGUI.PayrollData data : filteredPayroll) {
-            if (currentRunDate == null || !currentRunDate.equals(data.getRunDate())) {
-                currentRunDate = data.getRunDate();
-                report.append("<h2>Payroll Run: ").append(currentRunDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))).append("</h2>");
+        double grandTotalGrossPay = 0;
+        double grandTotalNetPay = 0;
+        double grandTotalDeductions = 0;
+
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+        // Iterate through each unique date
+        for (Map.Entry<LocalDate, List<PayrollGUI.PayrollData>> entry : payrollByDate.entrySet()) {
+            LocalDate payrollDate = entry.getKey();
+            List<PayrollGUI.PayrollData> dailyPayroll = entry.getValue();
+
+            report.append("<h2>Payroll Date: ").append(payrollDate.format(dateFormatter)).append("</h2>");
+
+            double dailyTotalGrossPay = 0;
+            double dailyTotalNetPay = 0;
+            double dailyTotalDeductions = 0;
+
+            // List all employees for this date
+            for (PayrollGUI.PayrollData data : dailyPayroll) {
+                double totalDeductions = data.getBirDeduction() + data.getSssDeduction() +
+                        data.getPhilHealthDeduction() + data.getPagIbigDeduction();
+
+                report.append("<b>").append(data.getFirstName()).append(" ").append(data.getLastName())
+                        .append(" (ID: ").append(data.getEmployeeId()).append(")</b><br>")
+                        .append("Gross Pay: $").append(String.format("%.2f", data.getGrossPay())).append("<br>")
+                        .append("Net Pay: $").append(String.format("%.2f", data.getNetPay())).append("<br>")
+                        .append("Deductions: $").append(String.format("%.2f", totalDeductions)).append("<br>")
+                        .append("  BIR: $").append(String.format("%.2f", data.getBirDeduction())).append("<br>")
+                        .append("  SSS: $").append(String.format("%.2f", data.getSssDeduction())).append("<br>")
+                        .append("  PhilHealth: $").append(String.format("%.2f", data.getPhilHealthDeduction())).append("<br>")
+                        .append("  Pag-IBIG: $").append(String.format("%.2f", data.getPagIbigDeduction())).append("<br><br>");
+
+                dailyTotalGrossPay += data.getGrossPay();
+                dailyTotalNetPay += data.getNetPay();
+                dailyTotalDeductions += totalDeductions;
             }
 
-            report.append("<b>").append(data.getFirstName()).append(" ").append(data.getLastName())
-                    .append(" (ID: ").append(data.getEmployeeId()).append(")</b><br>")
-                    .append("Gross Pay: $").append(String.format("%.2f", data.getGrossPay())).append("<br>")
-                    .append("Net Pay: $").append(String.format("%.2f", data.getNetPay())).append("<br>")
-                    .append("Deductions: BIR: $").append(data.getBirDeduction())
-                    .append(", SSS: $").append(data.getSssDeduction())
-                    .append(", PhilHealth: $").append(data.getPhilHealthDeduction())
-                    .append(", Pag-IBIG: $").append(data.getPagIbigDeduction()).append("<br><br>");
-            totalPayroll += data.getNetPay();
+            // Summary for this date
+            report.append("<h3>Daily Summary</h3>")
+                    .append("Total Gross Pay: $").append(String.format("%.2f", dailyTotalGrossPay)).append("<br>")
+                    .append("Total Net Pay: $").append(String.format("%.2f", dailyTotalNetPay)).append("<br>")
+                    .append("Total Deductions: $").append(String.format("%.2f", dailyTotalDeductions)).append("<br><br>");
+
+            grandTotalGrossPay += dailyTotalGrossPay;
+            grandTotalNetPay += dailyTotalNetPay;
+            grandTotalDeductions += dailyTotalDeductions;
         }
-        report.append("<h2>Total Payroll: $").append(String.format("%.2f", totalPayroll)).append("</h2>");
-        report.append("</body></html>");
+
+        // Grand total across all days
+        report.append("<h2>Grand Total Across All Days</h2>")
+                .append("Total Gross Pay: $").append(String.format("%.2f", grandTotalGrossPay)).append("<br>")
+                .append("Total Net Pay: $").append(String.format("%.2f", grandTotalNetPay)).append("<br>")
+                .append("Total Deductions: $").append(String.format("%.2f", grandTotalDeductions)).append("</body></html>");
+
         return report.toString();
     }
 
@@ -2644,105 +2685,173 @@ class PayrollGUI {
         JFrame payrollFrame = new JFrame("Run Payroll");
         payrollFrame.setLayout(new FlowLayout());
 
-        int confirmationResult = JOptionPane.showConfirmDialog(payrollFrame, "Run payroll for the current cut off?", "Confirm Payroll", JOptionPane.OK_CANCEL_OPTION);
-        if (confirmationResult == JOptionPane.OK_OPTION) {
-            List<Employee> allEmployees = new ArrayList<>(employeeRecords.employees.values());
-            JPanel employeeSelectionPanel = new JPanel(new GridLayout(0, 1));
-            List<JCheckBox> employeeCheckBoxes = new ArrayList<>();
+        // Initial confirmation dialog
+        int confirmationResult = JOptionPane.showConfirmDialog(payrollFrame,
+                "Run payroll for the current cut off?",
+                "Confirm Payroll",
+                JOptionPane.OK_CANCEL_OPTION);
+        if (confirmationResult != JOptionPane.OK_OPTION) {
+            payrollFrame.dispose();
+            return;
+        }
 
-            for (Employee employee : allEmployees) {
-                JCheckBox checkBox = new JCheckBox(employee.getFirstName() + " " + employee.getLastName() + " (ID: " + employee.getEmployeeId() + ")");
-                employeeCheckBoxes.add(checkBox);
-                employeeSelectionPanel.add(checkBox);
-            }
+        // Create a custom dialog for employee selection
+        JDialog employeeSelectionDialog = new JDialog(payrollFrame, "Select Employees for Payroll", true);
+        employeeSelectionDialog.setLayout(new BorderLayout());
+        employeeSelectionDialog.setSize(500, 400); // Fixed size for the dialog
+        employeeSelectionDialog.setLocationRelativeTo(payrollFrame);
 
-            int employeeSelectionResult = JOptionPane.showConfirmDialog(payrollFrame, employeeSelectionPanel, "Select Employees for Payroll", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+        // Employee selection panel with scrollable list
+        JPanel employeeSelectionPanel = new JPanel(new GridLayout(0, 1));
+        List<JCheckBox> employeeCheckBoxes = new ArrayList<>();
+        List<Employee> allEmployees = new ArrayList<>(employeeRecords.employees.values());
 
-            if (employeeSelectionResult == JOptionPane.OK_OPTION) {
-                List<Employee> selectedEmployees = new ArrayList<>();
-                for (int i = 0; i < allEmployees.size(); i++) {
-                    if (employeeCheckBoxes.get(i).isSelected()) {
-                        selectedEmployees.add(allEmployees.get(i));
-                    }
-                }
+        for (Employee employee : allEmployees) {
+            JCheckBox checkBox = new JCheckBox(employee.getFirstName() + " " +
+                    employee.getLastName() + " (ID: " + employee.getEmployeeId() + ")");
+            employeeCheckBoxes.add(checkBox);
+            employeeSelectionPanel.add(checkBox);
+        }
 
-                if (!selectedEmployees.isEmpty()) {
-                    StringBuilder overviewBuilder = new StringBuilder("<html><body><h1>Payroll Overview</h1>");
-                    double totalNetPay = 0;
-                    double totalGrossPay = 0;
-                    double totalGovDeductions = 0;
+        // Add the employee panel to a scroll pane
+        JScrollPane scrollPane = new JScrollPane(employeeSelectionPanel);
+        scrollPane.setPreferredSize(new Dimension(450, 300)); // Limit scrollable area size
+        employeeSelectionDialog.add(scrollPane, BorderLayout.CENTER);
 
-                    TimeAndAttendanceRecords attendanceRecords = new TimeAndAttendanceRecords();
-                    Map<Integer, List<TimeRecord>> attendanceData = attendanceRecords.getAttendanceData();
-                    LocalDateTime now = LocalDateTime.now();
+        // Button panel for OK and Cancel
+        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 5));
+        JButton okButton = createButton("OK", "Confirm selected employees for payroll");
+        JButton cancelButton = createButton("Cancel", "Cancel payroll process");
+        buttonPanel.add(okButton);
+        buttonPanel.add(cancelButton);
+        employeeSelectionDialog.add(buttonPanel, BorderLayout.SOUTH);
 
-                    for (Employee employee : selectedEmployees) {
-                        int employeeId = employee.getEmployeeId();
-                        List<TimeRecord> attendance = attendanceData.getOrDefault(employeeId, new ArrayList<>());
-                        double totalHours = 0;
-                        for (TimeRecord record : attendance) {
-                            totalHours += record.getWorkDuration().toHours();
-                        }
+        // Action listeners for buttons
+        final boolean[] proceed = {false}; // To track if OK was clicked
+        okButton.addActionListener(e -> {
+            proceed[0] = true;
+            employeeSelectionDialog.dispose();
+        });
+        cancelButton.addActionListener(e -> employeeSelectionDialog.dispose());
 
-                        double hourlyRate = employee.getHourlyRate();
-                        double riceSubsidy = employee.getRiceSubsidy();
-                        double phoneAllowance = employee.getPhoneAllowance();
-                        double clothingAllowance = employee.getClothingAllowance();
+        // Show the dialog and wait for user input
+        employeeSelectionDialog.setVisible(true);
 
-                        double grossPay = (hourlyRate * totalHours) + riceSubsidy + phoneAllowance + clothingAllowance;
+        if (!proceed[0]) {
+            payrollFrame.dispose();
+            return; // Exit if canceled
+        }
 
-                        TaxDeduction birDeduction = new BIRDeduction();
-                        TaxDeduction sssDeduction = new SSSDeduction();
-                        TaxDeduction philHealthDeduction = new PhilHealthDeduction();
-                        TaxDeduction pagIbigDeduction = new PagIbigDeduction();
-
-                        double birAmount = birDeduction.calculateDeduction(grossPay);
-                        double sssAmount = sssDeduction.calculateDeduction(grossPay);
-                        double philHealthAmount = philHealthDeduction.calculateDeduction(grossPay);
-                        double pagIbigAmount = pagIbigDeduction.calculateDeduction(grossPay);
-
-                        double totalEmployeeDeductions = sssAmount + philHealthAmount + pagIbigAmount;
-                        double totalGovernmentDeductionsForEmployee = birAmount + totalEmployeeDeductions;
-                        double netPay = grossPay - totalGovernmentDeductionsForEmployee;
-
-                        totalNetPay += netPay;
-                        totalGrossPay += grossPay;
-                        totalGovDeductions += totalGovernmentDeductionsForEmployee;
-
-                        overviewBuilder.append("<h2>").append(employee.getFirstName()).append(" ").append(employee.getLastName())
-                                .append(" (ID: ").append(employeeId).append(")</h2>")
-                                .append("Gross Pay: $").append(String.format("%.2f", grossPay)).append("<br>")
-                                .append("Net Pay: $").append(String.format("%.2f", netPay)).append("<br>")
-                                .append("Government Deductions: $").append(String.format("%.2f", totalGovernmentDeductionsForEmployee)).append("<br>")
-                                .append("  - ").append(birDeduction.getDeductionName()).append(": $").append(String.format("%.2f", birAmount)).append("<br>")
-                                .append("  - ").append(sssDeduction.getDeductionName()).append(": $").append(String.format("%.2f", sssAmount)).append("<br>")
-                                .append("  - ").append(philHealthDeduction.getDeductionName()).append(": $").append(String.format("%.2f", philHealthAmount)).append("<br>")
-                                .append("  - ").append(pagIbigDeduction.getDeductionName()).append(": $").append(String.format("%.2f", pagIbigAmount)).append("<br><br>");
-
-                        PayrollData payrollData = new PayrollData(now, employeeId, employee.getFirstName(), employee.getLastName(),
-                                grossPay, netPay, birAmount, sssAmount, philHealthAmount, pagIbigAmount);
-                        payrollRecords.addPayrollData(payrollData); // Store directly in PayrollRecords
-                    }
-
-                    overviewBuilder.append("<h1>Total Payroll Summary</h1>")
-                            .append("Total Net Pay for Selected Employees: $").append(String.format("%.2f", totalNetPay)).append("<br>")
-                            .append("Total Gross Pay for Selected Employees: $").append(String.format("%.2f", totalGrossPay)).append("<br>")
-                            .append("Total Government Deductions: $").append(String.format("%.2f", totalGovDeductions)).append("<br>")
-                            .append("</body></html>");
-
-                    int overviewResult = JOptionPane.showConfirmDialog(payrollFrame, overviewBuilder.toString(), "Payroll Overview", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
-
-                    if (overviewResult == JOptionPane.OK_OPTION) {
-                        JOptionPane.showMessageDialog(payrollFrame, "Payroll is All Set!", "Payroll Complete", JOptionPane.INFORMATION_MESSAGE);
-                    } else {
-                        JOptionPane.showMessageDialog(payrollFrame, "Payroll process cancelled.", "Cancelled", JOptionPane.INFORMATION_MESSAGE);
-                    }
-                } else {
-                    JOptionPane.showMessageDialog(payrollFrame, "No employees selected for payroll.", "Selection Error", JOptionPane.WARNING_MESSAGE);
-                }
+        // Process selected employees
+        List<Employee> selectedEmployees = new ArrayList<>();
+        for (int i = 0; i < allEmployees.size(); i++) {
+            if (employeeCheckBoxes.get(i).isSelected()) {
+                selectedEmployees.add(allEmployees.get(i));
             }
         }
+
+        if (selectedEmployees.isEmpty()) {
+            JOptionPane.showMessageDialog(payrollFrame,
+                    "No employees selected for payroll.",
+                    "Selection Error",
+                    JOptionPane.WARNING_MESSAGE);
+            payrollFrame.dispose();
+            return;
+        }
+
+        // Calculate payroll and show overview
+        StringBuilder overviewBuilder = new StringBuilder("<html><body><h1>Payroll Overview</h1>");
+        double totalNetPay = 0;
+        double totalGrossPay = 0;
+        double totalGovDeductions = 0;
+
+        TimeAndAttendanceRecords attendanceRecords = new TimeAndAttendanceRecords();
+        Map<Integer, List<TimeRecord>> attendanceData = attendanceRecords.getAttendanceData();
+        LocalDateTime now = LocalDateTime.now();
+
+        for (Employee employee : selectedEmployees) {
+            int employeeId = employee.getEmployeeId();
+            List<TimeRecord> attendance = attendanceData.getOrDefault(employeeId, new ArrayList<>());
+            double totalHours = 0;
+            for (TimeRecord record : attendance) {
+                totalHours += record.getWorkDuration().toHours();
+            }
+
+            double hourlyRate = employee.getHourlyRate();
+            double riceSubsidy = employee.getRiceSubsidy();
+            double phoneAllowance = employee.getPhoneAllowance();
+            double clothingAllowance = employee.getClothingAllowance();
+
+            double grossPay = (hourlyRate * totalHours) + riceSubsidy + phoneAllowance + clothingAllowance;
+
+            TaxDeduction birDeduction = new BIRDeduction();
+            TaxDeduction sssDeduction = new SSSDeduction();
+            TaxDeduction philHealthDeduction = new PhilHealthDeduction();
+            TaxDeduction pagIbigDeduction = new PagIbigDeduction();
+
+            double birAmount = birDeduction.calculateDeduction(grossPay);
+            double sssAmount = sssDeduction.calculateDeduction(grossPay);
+            double philHealthAmount = philHealthDeduction.calculateDeduction(grossPay);
+            double pagIbigAmount = pagIbigDeduction.calculateDeduction(grossPay);
+
+            double totalEmployeeDeductions = sssAmount + philHealthAmount + pagIbigAmount;
+            double totalGovernmentDeductionsForEmployee = birAmount + totalEmployeeDeductions;
+            double netPay = grossPay - totalGovernmentDeductionsForEmployee;
+
+            totalNetPay += netPay;
+            totalGrossPay += grossPay;
+            totalGovDeductions += totalGovernmentDeductionsForEmployee;
+
+            overviewBuilder.append("<h2>").append(employee.getFirstName()).append(" ").append(employee.getLastName())
+                    .append(" (ID: ").append(employeeId).append(")</h2>")
+                    .append("Gross Pay: $").append(String.format("%.2f", grossPay)).append("<br>")
+                    .append("Net Pay: $").append(String.format("%.2f", netPay)).append("<br>")
+                    .append("Government Deductions: $").append(String.format("%.2f", totalGovernmentDeductionsForEmployee)).append("<br>")
+                    .append("  - ").append(birDeduction.getDeductionName()).append(": $").append(String.format("%.2f", birAmount)).append("<br>")
+                    .append("  - ").append(sssDeduction.getDeductionName()).append(": $").append(String.format("%.2f", sssAmount)).append("<br>")
+                    .append("  - ").append(philHealthDeduction.getDeductionName()).append(": $").append(String.format("%.2f", philHealthAmount)).append("<br>")
+                    .append("  - ").append(pagIbigDeduction.getDeductionName()).append(": $").append(String.format("%.2f", pagIbigAmount)).append("<br><br>");
+
+            PayrollData payrollData = new PayrollData(now, employeeId, employee.getFirstName(), employee.getLastName(),
+                    grossPay, netPay, birAmount, sssAmount, philHealthAmount, pagIbigAmount);
+            payrollRecords.addPayrollData(payrollData);
+        }
+
+        overviewBuilder.append("<h1>Total Payroll Summary</h1>")
+                .append("Total Gross Pay for Selected Employees: $").append(String.format("%.2f", totalGrossPay)).append("<br>")
+                .append("Total Net Pay for Selected Employees: $").append(String.format("%.2f", totalNetPay)).append("<br>")
+                .append("Total Government Deductions: $").append(String.format("%.2f", totalGovDeductions)).append("<br>")
+                .append("</body></html>");
+
+        // Show payroll overview in a scrollable pane
+        JTextPane overviewPane = new JTextPane();
+        overviewPane.setContentType("text/html");
+        overviewPane.setText(overviewBuilder.toString());
+        overviewPane.setEditable(false);
+        JScrollPane overviewScrollPane = new JScrollPane(overviewPane);
+        overviewScrollPane.setPreferredSize(new Dimension(600, 400));
+
+        int overviewResult = JOptionPane.showConfirmDialog(payrollFrame,
+                overviewScrollPane,
+                "Payroll Overview",
+                JOptionPane.OK_CANCEL_OPTION,
+                JOptionPane.INFORMATION_MESSAGE);
+
+        if (overviewResult == JOptionPane.OK_OPTION) {
+            JOptionPane.showMessageDialog(payrollFrame,
+                    "Payroll is All Set!",
+                    "Payroll Complete",
+                    JOptionPane.INFORMATION_MESSAGE);
+        } else {
+            JOptionPane.showMessageDialog(payrollFrame,
+                    "Payroll process cancelled.",
+                    "Cancelled",
+                    JOptionPane.INFORMATION_MESSAGE);
+        }
+
+        payrollFrame.dispose();
     }
+
     // Helper class to hold payroll data
     class PayrollRecords {
         private List<PayrollData> payrollData;
