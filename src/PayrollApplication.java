@@ -11,7 +11,14 @@ import java.util.Scanner;
 import java.time.format.DateTimeFormatter;
 import java.util.stream.Collectors;
 import javax.swing.border.EmptyBorder;
-
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+ import com.itextpdf.layout.Document;
+ import com.itextpdf.layout.element.Paragraph;
+ import com.itextpdf.layout.element.Text;
+ import javax.swing.JFileChooser;
+ import java.io.File;
+ import java.io.IOException;
 import javax.swing.JComboBox;
 
 
@@ -618,15 +625,6 @@ class Report {
         return payslips.toString();
     }
 
-    // Legacy method for backward compatibility (no date filter)
-    public String generatePayrollReport() {
-        return generatePayrollReport(null, null);
-    }
-
-    // Legacy method for backward compatibility (no date filter)
-    public String generateAllPayslips(int employeeId) {
-        return generatePayslips(employeeId, null, null);
-    }
 }
 
 //    __  _                                   __         __  __                 __
@@ -1046,6 +1044,45 @@ class PayrollGUI {
         loggedInEmployee = null;
         failedLoginAttempts = new HashMap<>();
     }
+
+     private void generatePayslipPDF(PayrollData payslip, JFrame parentFrame) throws IOException {
+     JFileChooser fileChooser = new JFileChooser();
+     fileChooser.setDialogTitle("Save Payslip PDF");
+     fileChooser.setSelectedFile(new File("Payslip_" + payslip.getEmployeeId() + "_" +
+         payslip.getRunDate().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss")) + ".pdf"));
+
+     int userSelection = fileChooser.showSaveDialog(parentFrame);
+     if (userSelection != JFileChooser.APPROVE_OPTION) {
+         return; // User canceled the save operation
+     }
+
+     File fileToSave = fileChooser.getSelectedFile();
+     String filePath = fileToSave.getAbsolutePath();
+     if (!filePath.endsWith(".pdf")) {
+         filePath += ".pdf";
+     }
+
+     // Create PDF using iText
+     PdfWriter writer = new PdfWriter(filePath);
+     PdfDocument pdf = new PdfDocument(writer);
+     Document document = new Document(pdf);
+
+     // Add content to the PDF
+     document.add(new Paragraph(new Text("Payslip").setBold().setFontSize(16)));
+     document.add(new Paragraph("Pay Date: " + payslip.getRunDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))));
+     document.add(new Paragraph("Employee: " + payslip.getFirstName() + " " + payslip.getLastName() +
+         " (ID: " + payslip.getEmployeeId() + ")"));
+     document.add(new Paragraph("Gross Pay: $" + String.format("%.2f", payslip.getGrossPay())));
+     document.add(new Paragraph("Net Pay: $" + String.format("%.2f", payslip.getNetPay())));
+     document.add(new Paragraph("Deductions:"));
+     document.add(new Paragraph("  BIR: $" + String.format("%.2f", payslip.getBirDeduction())));
+     document.add(new Paragraph("  SSS: $" + String.format("%.2f", payslip.getSssDeduction())));
+     document.add(new Paragraph("  PhilHealth: $" + String.format("%.2f", payslip.getPhilHealthDeduction())));
+     document.add(new Paragraph("  Pag-IBIG: $" + String.format("%.2f", payslip.getPagIbigDeduction())));
+
+     // Close the document
+     document.close();
+ }
 
   // login pane
     public void createLoginGUI() {
@@ -2073,8 +2110,11 @@ class PayrollGUI {
 
         // Generate Payslip Button (moved below the list)
         JPanel payButtonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
+         JButton downloadPayslipButton = createButton("Download as PDF", "Download the selected payslip as a PDF");
+         downloadPayslipButton.setEnabled(false);
         JButton generatePayslipButton = createButton("Generate Payslip", "Generate payslip for a specific date range");
         payButtonPanel.add(generatePayslipButton);
+         payButtonPanel.add(downloadPayslipButton);
 
         // Add components to payPanel
         payPanel.add(payslipsListPanel, BorderLayout.CENTER);
@@ -2349,9 +2389,28 @@ class PayrollGUI {
                             .append("  Pag-IBIG: $").append(String.format("%.2f", selectedPayslip.getPagIbigDeduction())).append("<br>")
                             .append("</body></html>");
                     payslipDetailsPane.setText(details.toString());
+                     downloadPayslipButton.setEnabled(true);
+                }
+
+                else {
+                    payslipDetailsPane.setText("");
+                     downloadPayslipButton.setEnabled(false);
                 }
             }
         });
+ downloadPayslipButton.addActionListener(e -> {
+             int selectedIndex = payslipJList.getSelectedIndex();
+             if (selectedIndex >= 0) {
+                 PayrollGUI.PayrollData selectedPayslip = employeePayroll.get(selectedIndex);
+                 try {
+                     generatePayslipPDF(selectedPayslip, employeeFrame);
+                     JOptionPane.showMessageDialog(employeeFrame, "Payslip downloaded successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                 } catch (IOException ex) {
+                     JOptionPane.showMessageDialog(employeeFrame, "Error generating PDF: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                 }
+             }
+         });
+
 
         // Populate Leave Requests List
         List<LeaveRequest> allRequests = leaveManagement.getAllLeaveRequests();
