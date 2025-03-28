@@ -1,3 +1,5 @@
+Note: Kindly try cloning repo through bash. (I have found that project files do not load properly if you download it through zip.) Thanks!
+
 Kindly see credentials below for testing-
 
 Employee-
